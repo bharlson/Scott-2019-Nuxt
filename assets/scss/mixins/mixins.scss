@@ -24,12 +24,15 @@
     }
 }
 
-
 @mixin btn-layered($color:$red){
     box-shadow: 0.4rem 0.4rem $color;
     transition: box-shadow 0.25s ease;
-    &:hover,&:active{
+    &:hover{
         box-shadow: 0.5rem 0.5rem darken($color,5%);
+        cursor: pointer;
+    }
+    &:active{
+        box-shadow: 0.25rem 0.25rem darken($color,5%);
         cursor: pointer;
     }
 }

@@ -1,8 +1,8 @@
 <template>
 <div id="app">
-    <a href="https://www.seattle.gov/democracyvoucher/about-the-program" class="front">
+    <nuxt-link to="/democracy-vouchers" class="front">
         <img src="../assets/img/voucher-hand.png" class="democracy-voucher-alert">
-    </a>
+    </nuxt-link>
     <section id="about">
         <div class="container">
             <div class="row">
@@ -52,9 +52,9 @@
             <!--/row-->
             <div class="row mt-4">
                 <div class="col-about-btn">
-                    <button class="about-btn">
+                    <nuxt-link class="about-btn" to="/platform">
                         <img class="img-emoji" src="../assets/img/icons/rose-emoji.png">FULL PLATFORM
-                    </button>
+                    </nuxt-link>
                 </div>
             </div>
         </div>
@@ -114,60 +114,6 @@
                         be an example of what can happen when we make the political process work for those it
                         has historically ignored"</p>
                     <a href="https://www.thestranger.com/slog/2018/11/23/35978962/democratic-socialist-shaun-scott-is-running-for-seattle-city-council"
-                        class="btn press-card-btn">FULL ARTICLE
-                    </a>
-                </article>
-                <!--/press card-->
-                <article class="card press-card">
-                    <figure>
-                        <a href="https://www.thestranger.com/slog/2018/11/23/36072893/shaun-scott-talks-housing-equity-and-money-in-politics">
-                            <img src="../assets/img/stranger.png" alt="The Stranger" class="press-card-img">
-                        </a>
-                        <figcaption>INTERVIEW</figcaption>
-                    </figure>
-                    <p class="press-card-text">“There is a very large part of the district that is not used to having
-                        visible council leadership. I’m interested in talking about the things that are going to make
-                        them want
-                        to get involved so we have a city that’s actually representing where young people are
-                        at, what our anxieties are, where comparatively less well-off poor people are at,
-                        what’s going to make it so we can see ourselves actually reflected in government.”</p>
-                    <a href="https://www.thestranger.com/slog/2018/11/23/36072893/shaun-scott-talks-housing-equity-and-money-in-politics"
-                        class="btn press-card-btn">FULL ARTICLE
-                    </a>
-                </article>
-                <!--/press card-->
-                <article class="card press-card">
-                    <figure>
-                        <a href="https://www.thestranger.com/slog/2018/11/23/36072893/shaun-scott-talks-housing-equity-and-money-in-politics">
-                            <img src="../assets/img/stranger.png" alt="The Stranger" class="press-card-img">
-                        </a>
-                        <figcaption>INTERVIEW</figcaption>
-                    </figure>
-                    <p class="press-card-text">“There is a very large part of the district that is not used to having
-                        visible council
-                        leadership. I’m interested in talking about the things that are going to make them want
-                        to get involved so we have a city that’s actually representing where young people are
-                        at, what our anxieties are, where comparatively less well-off poor people are at,
-                        what’s going to make it so we can see ourselves actually reflected in government.”</p>
-                    <a href="https://www.thestranger.com/slog/2018/11/23/36072893/shaun-scott-talks-housing-equity-and-money-in-politics"
-                        class="btn press-card-btn">FULL ARTICLE
-                    </a>
-                </article>
-                <!--/press card-->
-                <article class="card press-card">
-                    <figure>
-                        <a href="https://www.thestranger.com/slog/2018/11/23/36072893/shaun-scott-talks-housing-equity-and-money-in-politics">
-                            <img src="../assets/img/stranger.png" alt="The Stranger" class="press-card-img">
-                        </a>
-                        <figcaption>INTERVIEW</figcaption>
-                    </figure>
-                    <p class="press-card-text">“There is a very large part of the district that is not used to having
-                        visible council
-                        leadership. I’m interested in talking about the things that are going to make them want
-                        to get involved so we have a city that’s actually representing where young people are
-                        at, what our anxieties are, where comparatively less well-off poor people are at,
-                        what’s going to make it so we can see ourselves actually reflected in government.”</p>
-                    <a href="https://www.thestranger.com/slog/2018/11/23/36072893/shaun-scott-talks-housing-equity-and-money-in-politics"
                         class="btn press-card-btn">FULL ARTICLE
                     </a>
                 </article>

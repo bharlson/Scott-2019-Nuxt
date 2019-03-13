@@ -22,11 +22,7 @@
     }
 
     &-layered{
-        box-shadow: 0.4rem 0.4rem $red;
-        transition: box-shadow 0.25s ease;
-        &:hover,&:active{
-            box-shadow: 0.5rem 0.5rem darken($red,5%);
-        }
+        @include btn-layered;
     }
     &-layered-purple{
         @include btn-layered(rgba($purple,0.5))
@@ -36,6 +32,15 @@
         padding:0.688rem;
     }
 
+}
+
+.about-btn{
+    @extend .btn, .btn-white, .text-red, .btn-block;
+    @include btn-layered;
+    @media(min-width:$xl){
+        width:80%;
+        margin: 0 auto;
+    }
 }
 
 .btn-purple{

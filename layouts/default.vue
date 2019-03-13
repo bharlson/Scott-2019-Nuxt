@@ -30,7 +30,7 @@
 
     main{
       min-height:calc(100vh - 436px);
-      background-color: #fff;
+      background-color:$light-gray;
     }
     
     .page-title{

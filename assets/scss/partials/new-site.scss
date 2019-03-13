@@ -12,13 +12,7 @@
         padding: auto;
     }
 }
-.about-btn{
-    @extend .btn, .btn-white, .btn-layered, .text-red, .btn-block;
-    @media(min-width:$xl){
-        width:80%;
-        margin: 0 auto;
-    }
-}
+
 .col-about-btn{
     @extend .col-md-5, .col-lg-4, .offset-lg-4;
     @media(min-width:$md) and (max-width:$lg){

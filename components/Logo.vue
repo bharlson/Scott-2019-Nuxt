@@ -1,13 +1,10 @@
 <template>
-  <nuxt-link to="/" tag="div" class="col-logo">
-      <img src="../assets/img/myra-logo.png" alt="" class="img-logo">
+  <div class="col-logo">
+    <nuxt-link to="/">
+      <img src="../assets/img/myra-logo.png" alt="Logo" class="img-logo">
   </nuxt-link>
+  </div>
 </template>
 
 <style lang="scss" scoped>
-  .col-logo{
-    &:hover{
-      cursor: pointer;
-    }
-  }
 </style>
