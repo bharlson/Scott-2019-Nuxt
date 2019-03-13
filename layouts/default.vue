@@ -48,6 +48,7 @@
         }
 
       h1{
+        text-align: left;
         font-size: 2.5rem;
         color:$white;
         @media(min-width:$md){

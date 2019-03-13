@@ -21,18 +21,18 @@
                         <p>Shaun Scott is an advocacy journalist and historian who has worked as the editor of Real Change News. Once a member of UAW 4121--the University of Washington’s union for academic and student employees–he has spent over a decade studying how cities can make good on the promise of economic equity, race, gender, and disability* fairness, and climate justice.</p>
                         <p>A vote for Shaun Scott is a vote for that vision.</p>
                     </div>
-                    <div class="col-lg-6 order-1 order-lg-2">
+                    <div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0">
                         <img src="@/assets/img/meet-shaun.jpg" alt="Meet Shaun" class="img-fluid">
                     </div>
                 </div>
-                <div class="row text-center">
-                        <div class="col">
-                            <h2>SHAUN IS A:</h2>
-                            <h5>43RD LD DEMOCRAT</h5>
-                            <h5>DEMOCRATIC SOCIALIST</h5>
-                            <h5>LABOR ORGANIZER</h5>
-                        </div>
+                <div class="row text-center mt-4">
+                    <div class="col">
+                        <h2>SHAUN IS A:</h2>
+                        <h5>43RD LD DEMOCRAT</h5>
+                        <h5>DEMOCRATIC SOCIALIST</h5>
+                        <h5>LABOR ORGANIZER</h5>
                     </div>
+                </div>
             </div>
         </section>
     </main>

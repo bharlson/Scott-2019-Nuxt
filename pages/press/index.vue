@@ -10,16 +10,6 @@
             </div>
         </section>
         <section-press></section-press>
-        <section class="page-content">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <h2>heading</h2>
-                        <h3>subhead</h3>
-                    </div>
-                </div>
-            </div>
-        </section>
     </main>
 </template>
 <script>

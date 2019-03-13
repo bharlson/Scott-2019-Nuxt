@@ -7626,6 +7626,15 @@ footer .navbar-item {
     .card {
       margin-top: 0; } }
 
+.address-box {
+  display: inline-block;
+  border: 2px solid #0f1048;
+  padding: 1rem;
+  color: #0f1048;
+  font-size: 0.9rem;
+  font-weight: 600;
+  width: auto; }
+
 .card-columns {
   margin-top: 2rem;
   -webkit-column-count: 1;

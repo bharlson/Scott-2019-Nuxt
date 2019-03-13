@@ -292,6 +292,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/assets/img/by-mail@2x.jpg": {
+		"ft": 16384,
+		"iS": 335653,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/by-mail@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/img/by-mail@3x.jpg": {
+		"ft": 16384,
+		"iS": 566380,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/by-mail@3x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/assets/img/cityscape-drawing.png": {
 		"ft": 32768,
 		"iS": 290313,
@@ -342,6 +364,39 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/img/delete-ur-account.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/img/democracy-vouchers/by-mail.jpg": {
+		"ft": 16384,
+		"iS": 103697,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/democracy-vouchers/by-mail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/img/democracy-vouchers/in-person.jpg": {
+		"ft": 16384,
+		"iS": 81146,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/democracy-vouchers/in-person.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/img/democracy-vouchers/online.jpg": {
+		"ft": 16384,
+		"iS": 78320,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/democracy-vouchers/online.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -670,6 +725,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/assets/img/in-person@2x.jpg": {
+		"ft": 16384,
+		"iS": 262557,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/in-person@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/img/in-person@3x.jpg": {
+		"ft": 16384,
+		"iS": 435035,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/in-person@3x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/assets/img/Logo placeholder.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -777,6 +854,28 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/online@2x.jpg": {
+		"ft": 16384,
+		"iS": 244484,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/online@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/img/online@3x.jpg": {
+		"ft": 16384,
+		"iS": 407084,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/online@3x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/assets/img/Scott 2019_compressed.pdf": {
