@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'betonextra_bold';
+    src: url('../../static/fonts/Beton-ExtBol.otf') format('opentype'),
+         url('../../static/fonts/beton-extbol-webfont.woff2') format('woff2'),
+         url('../../static/fonts/beton-extbol-webfont.woff') format('woff'),
+         url('../../static/fonts/beton-extbol-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+//headings
+h1{
+    font-family: $heading-font;
+    color:$red;
+    font-weight:700;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    line-height: 80%;
+    line-height: auto;
+    margin-bottom: 0;
+    @media(min-width:$md){
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+    @media(min-width:$lg){
+        font-size: 3rem;
+    }
+    &::selection{
+        background-color:$red;
+        color:$white;
+    }
+}
+
+
+h2{
+    font-size:1.5rem;
+    &::selection{
+        background-color:$red;
+        color:$white;
+    }
+}
+
+body{
+    font-family:$body-font;
+    color:$purple;
+    &::selection{
+        background-color:$red;
+        color:$white;
+    }
+}
+
+p{
+    font-family:$body-font;
+    font-weight: 400;
+    line-height: 1.75rem;
+    font-size:$body-font-size;
+    color:$purple;
+    &::selection{
+        background-color:$red;
+        color:$white;
+    }
+}
+
+a{
+    text-decoration:none;
+    &.btn-purple{
+        &:hover{
+            color:$white;
+            cursor:pointer;
+        }
+    }
+
+    &:hover{
+        text-decoration:none;
+        color:$red;
+    }
+}
+
+
+label,figcaption,small{
+    font-size:0.75rem;
+    text-transform: uppercase; 
+    &::selection{
+        background-color:$red;
+        color:$white;
+    }
+}
+
+figcaption,small{
+    margin-top: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.text-intro{
+    font-family: $heading-font;
+    font-size: 1.75rem;
+    color:$white;
+    padding-bottom: 1rem;
+    @media(min-width:$md){
+        font-size:2.5rem; 
+        padding-bottom: auto;
+    }
+    @media(min-width:$lg){
+        font-size:2.15rem; 
+    }
+}
+
+.text-header{
+    display: block;
+    font-family: $body-font;
+    color:$white;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.25rem;
+    font-size: 1.5rem;
+    line-height: 100%;
+    margin-bottom: 0.5rem;
+    @media(min-width:$md){
+        font-size:2rem; 
+    }
+    @media(min-width:$xl){
+        font-size: 3rem;
+        line-height: 5rem;
+
+    }
+    &-emphasis{
+        font-family: $serif;
+        letter-spacing: normal;
+        font-size:3rem;
+        margin-bottom: -5px;
+        color:$purple;
+        line-height: auto;
+        @media(min-width:$md){
+            font-size:4rem;
+        }
+        @media(min-width:$xl){
+            font-size: 6rem;
+            margin-bottom: -1.2rem;
+        }
+    }
+}
+.text-demand{
+    font-family: $body-font;
+    color:$white;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.25rem;
+    @media(min-width:$md){
+        font-size:1.5rem;
+        line-height: 2.5rem;
+    }
+}
+
+.text-red{
+    color:$red;
+}
+.text-purple{
+    color:$purple;
+}
+.text-white{
+    color:$white;
+}
+
+//End Typography

@@ -1,0 +1,37 @@
+
+//Colors
+$red:#ff033e;
+$purple:#0f1048;
+$active-page-color:#B7B7C8
+;
+$light-purple:#eeedf4;
+$black: #000000;
+$white:#ffffff;
+$light-gray:#f0f0f5;
+$green:green;
+
+//Emojis
+$fist-emoji: '../img/icons/fist-emoji.png';
+$money-emoji: '../img/icons/money-emoji.png';
+$newspaper-emoji: '../img/icons/newspaper-emoji.png';
+$rose-emoji: '../img/icons/rose-emoji.png';
+$wave-emoji: '../img/icons/wave.png';
+
+//Font
+$serif: 'betonextra_bold','Alegreya SC','Rockwell Nova', serif;
+$heading-font: $serif;
+$sans-serif: 'Avenir', 'Proxima Nova','Open Sans', Helvetica,'Verdana', Arial, sans-serif;
+$body-font:$sans-serif;
+
+//Font-size
+$body-font-size:18px;
+$heading-font-size:50px;
+
+
+//Breakpoints
+$xs: 0;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1600px;

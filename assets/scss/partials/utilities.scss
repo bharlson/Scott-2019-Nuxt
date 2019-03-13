@@ -1,0 +1,31 @@
+.bg-purple{
+    background-color:$purple;
+}
+.bg-light-gray{
+    background-color:$light-gray;
+}
+
+.text-serif{
+    font-family: $heading-font;
+}
+.text-red{
+    color:$red!important;
+}
+
+
+.outline-red{
+    border:1px solid $red;
+    color:$red;
+    background-color:transparent;
+}
+
+.back{
+    z-index:0!important;
+}
+.mid{
+    z-index:500!important;
+}
+
+.front{
+    z-index:100000!important;
+}

@@ -1,0 +1,80 @@
+
+#about{
+    background-color: $purple;
+    padding-top: 0;
+    p{
+        color:$white;
+    }
+    @media(min-width:$md){
+        padding: 2rem 4rem 4rem 4rem;
+    }
+    @media(min-width:$lg){
+        padding: auto;
+    }
+}
+.about-btn{
+    @extend .btn, .btn-white, .btn-layered, .text-red, .btn-block;
+    @media(min-width:$xl){
+        width:80%;
+        margin: 0 auto;
+    }
+}
+.col-about-btn{
+    @extend .col-md-5, .col-lg-4, .offset-lg-4;
+    @media(min-width:$md) and (max-width:$lg){
+        margin-left: 29%;
+    }
+
+}
+
+
+#press{
+    background-color:$light-gray;
+}
+.press-btn{
+    @extend .btn, .btn-purple, .btn-layered, .btn-block;
+    @media(min-width:$xl){
+        width:80%;
+        margin: 0 auto;
+    }
+}
+
+#outreach{
+    background-image: url(../img/shaun-lake-union.jpg);
+    background-position: 30% 31%;
+    background-size: cover;
+    
+    @media(min-width:$md){
+        background-size:length;
+        background-position: -5rem 0 0 0;
+        padding:4rem 0 4rem 0;
+    }
+    @media(min-width:$lg){
+        background-size: cover;
+        background-position:0 0 0 0;
+        padding:8rem 0;
+    }
+    @media(min-width:1500px){
+        background-size: cover;
+
+    }
+    .outreach-btn-row{
+        @extend .row;
+        padding-top: 20rem;
+        @media(min-width:$md){
+            padding:auto 5rem;
+        }
+        @media(min-width:$lg){
+            padding-top:10rem;
+        }
+    }
+
+    .outreach-heading{
+        @media(min-width:$lg){
+            font-size:1.75rem;
+        }
+        @media(min-width:$xl){
+            font-size:3rem;
+        }
+    }
+}

@@ -1,0 +1,56 @@
+nav{
+    background-color: $purple;
+    padding: 1rem 0;
+
+}
+.navbar{
+    @extend .container;
+
+    &:after{
+        content:'';
+        width: 100%;
+        margin-top: 1rem;
+        border: 1px solid rgba($white,0.13);
+    }
+    &-item{
+        list-style-type: none;
+        @extend .col-6, .col-md;
+        // @extend .col-md;
+        padding-bottom: 0.5rem;
+        // display: block;
+        // width:50%;
+        @media(min-width: $md){
+            width: auto;
+            font-size: 0.9rem;
+            text-align: center;
+        }
+        
+    }
+    &-link{
+        color:$white;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 0.1rem;
+        transition:color 0.25s ease;
+        &:hover,&:active,&.active{
+            color:$red;
+            cursor: pointer;
+        }
+    }
+}
+.nuxt-link-active{
+    color:$active-page-color;
+}
+
+footer{
+    .navbar{
+        &-item{
+            @extend .col, .col-md-4;
+            // padding-right: 0;
+            text-align: left;
+            &:last-of-type{
+                @extend .col-md;
+            } 
+        }
+    }
+}
