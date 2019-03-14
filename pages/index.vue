@@ -1,6 +1,6 @@
 <template>
 <div id="app">
-    <nuxt-link to="/democracy-vouchers" class="front">
+    <nuxt-link to="/democracy-vouchers" tag="a" class="front">
         <img src="../assets/img/voucher-hand.png" class="democracy-voucher-alert">
     </nuxt-link>
     <section id="about">
@@ -121,11 +121,11 @@
             </div>
             <!--/row-->
             <div class="row mt-4">
-                <div class="col-md-4 offset-md-4">
-                    <button class="press-btn">
+                <div to="press" class="col-md-4 offset-md-4">
+                    <nuxt-link class="press-btn" to="/press">
                         <img src="../assets/img/icons/newspaper-emoji.png" alt="news emoji" class="img-emoji">
                         More Press
-                    </button>
+                    </nuxt-link>
                 </div>
             </div>
             <!--/row-->

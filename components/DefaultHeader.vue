@@ -11,17 +11,7 @@
     </header>
 </template>
 <style lang="scss" scoped>
-    @import '@/assets/scss/partials/variables.scss';
-    header{
-        background-color:$purple;
-        padding-top: 1rem;
-        nav{    
-            padding-top: 0;
-            @media(min-width:$lg){
-                padding-top: 2rem;
-            }
-        }
-    }
+
 
 </style>
 

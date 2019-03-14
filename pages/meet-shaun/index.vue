@@ -28,9 +28,9 @@
                 <div class="row text-center mt-4">
                     <div class="col">
                         <h2>SHAUN IS A:</h2>
-                        <h5>43RD LD DEMOCRAT</h5>
-                        <h5>DEMOCRATIC SOCIALIST</h5>
-                        <h5>LABOR ORGANIZER</h5>
+                        <h3>43RD LD DEMOCRAT</h3>
+                        <h3>DEMOCRATIC SOCIALIST</h3>
+                        <h3>LABOR ORGANIZER</h3>
                     </div>
                 </div>
             </div>
@@ -49,16 +49,8 @@ export default {
 </script>
 <style lang="scss" scoped>
    @import '@/assets/scss/partials/variables.scss';
-    h5{
-        color: $purple;
-        font-family: $body-font;
-        text-transform: uppercase;
-        font-weight: 600;
-        letter-spacing: 0.25rem;
-        @media(min-width:$md){
-            font-size:1.5rem;
-            line-height: 2.5rem;
-        }
+    h3{
+        text-align: center;
     }
 </style>
 

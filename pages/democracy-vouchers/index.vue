@@ -27,24 +27,35 @@
                         <article class="col-md-4">
                             <img src="@/assets/img/democracy-vouchers/online.jpg" alt="online">
                             <h3>online</h3>
-                            <p>You can head over to the Democracy Voucher Online Portal to digitally assign your voucher funds to Shaun Scott.</p>
+                            <p>You can head over to the 
+                                <a href="https://www.seattle.gov/democracyvoucher/i-am-a-seattle-resident/online-portal">
+                                    Democracy Voucher Online Portal
+                                </a>
+                                 to digitally assign your voucher funds to Shaun Scott.</p>
                         </article>
                         <article class="col-md-4">
                             <img src="@/assets/img/democracy-vouchers/in-person.jpg" alt="in person">
                             <h3>in person</h3>
-                            <p>To hand over your vouchers in person, you can simply get in touch with the campaign.</p>
+                            <p>To hand over your vouchers in person, you can simply <a href="mailto:info@scott2019.com">get in touch with the campaign.</a></p>
                         </article>
                         <article class="col-md-4">
                             <img src="@/assets/img/democracy-vouchers/by-mail.jpg" alt="By Mail">
                             <h3>By Mail</h3>
                             <p>Once you write Shaun Scott on the vouchers you can mail them back to the city using the pre-paid slip, or you can mail them directly to the campaign at: </p>
+                            <textarea  v-model="address" id="democracy-voucher-address-box" >
+                            </textarea>
+                            
                             <div 
-                                id="democracy-voucher-address-box" 
+                                @click="copyAddress"
+                                @mouseover="showTooltip"
+                                @mouseleave="hideTooltip"
                                 class="address-box">
+                                <tooltip v-if="tooltipShown">Click to copy address</tooltip>
                                 People for Shaun Scott <br>
                                 PO Box  45088 <br>
                                 Seattle, WA 98145
                             </div>
+                            
                         </article>
                     </div>
                 </section>
@@ -53,29 +64,48 @@
     </main>
 </template>
 <script>
+import Tooltip from '@/components/Tooltip.vue'
 export default {
     layout: 'default',
     data(){
         return{
-            pageTitle:'Democracy Vouchers'
+            pageTitle:'Democracy Vouchers',
+            address:'People for Shaun Scott, PO Box  45088, Seattle, WA 98145',
+            tooltipShown: false
         }
+    },
+    components:{
+        Tooltip
     },
     methods: {
         copyAddress() {
             //need to debug this 
             /* Get the text field */
             var copyText = document.getElementById("democracy-voucher-address-box")
-
-            /* Select the text field */
+            // /* Select the text field */
             copyText.select()
-
-            /* Copy the text inside the text field */
+            // /* Copy the text inside the text field */
             document.execCommand("copy");
-        }
+        },
+        showTooltip(){
+            this.tooltipShown = !this.tooltipShown;
+        },
+        hideTooltip(){
+            this.tooltipShown = !this.tooltipShown;
+        },
     }
+    
 }
 </script>
 <style lang="scss" scoped>
+    @import '@/assets/scss/partials/variables.scss';
+    a{
+        color:$red;
+        font-weight: 600;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
     #democracy-vouchers-explainer{
         padding-left: 0;
         padding-right: 0;
@@ -86,6 +116,12 @@ export default {
             margin-bottom: 2rem;
             width:90%;
         }
+    }
+    #democracy-voucher-address-box{
+        position: absolute;
+        height:0;
+        width:0;
+        opacity: 0;
     }
 </style>
 

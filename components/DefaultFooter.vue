@@ -8,7 +8,7 @@
                 </div><!--/row-->
             </div>
         </div>
-        <img class="img-paid-for-by" src="@/static/img/icons/paid-for-by.svg" alt="Paid for By th">
+        <img class="img-paid-for-by" src="../assets/img/icons/paid-for-by.svg" alt="Paid for By th">
     </footer>
 </template>
 <style lang="scss" scoped>
