@@ -7,7 +7,13 @@
     font-weight: normal;
     font-style: normal;
 }
-
+a{
+    color:$red;
+    font-weight: 600;
+    &:hover{
+        text-decoration: underline;
+    }
+}
 //headings
 h1{
     font-family: $heading-font;

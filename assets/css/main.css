@@ -647,7 +647,7 @@ pre {
   .col-sm-3 {
     flex: 0 0 25%;
     max-width: 25%; }
-  .col-sm-4 {
+  .col-sm-4, .col-logo {
     flex: 0 0 33.3333333333%;
     max-width: 33.3333333333%; }
   .col-sm-5 {
@@ -712,7 +712,7 @@ pre {
     margin-left: 16.6666666667%; }
   .offset-sm-3 {
     margin-left: 25%; }
-  .offset-sm-4 {
+  .offset-sm-4, .col-logo {
     margin-left: 33.3333333333%; }
   .offset-sm-5 {
     margin-left: 41.6666666667%; }
@@ -1668,7 +1668,7 @@ textarea.form-control, textarea.form-text-input {
     .form-inline .custom-control-label {
       margin-bottom: 0; } }
 
-.btn, .sign-up-form-btn, .about-btn, .press-btn {
+.btn, .sign-up-form-btn, .about-btn, .press-btn, .blog-btn {
   display: inline-block;
   font-weight: 400;
   color: #212529;
@@ -1683,22 +1683,23 @@ textarea.form-control, textarea.form-text-input {
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
   @media (prefers-reduced-motion: reduce) {
-    .btn, .sign-up-form-btn, .about-btn, .press-btn {
+    .btn, .sign-up-form-btn, .about-btn, .press-btn, .blog-btn {
       transition: none; } }
-  .btn:hover, .sign-up-form-btn:hover, .about-btn:hover, .press-btn:hover {
+  .btn:hover, .sign-up-form-btn:hover, .about-btn:hover, .press-btn:hover, .blog-btn:hover {
     color: #212529;
     text-decoration: none; }
-  .btn:focus, .sign-up-form-btn:focus, .about-btn:focus, .press-btn:focus, .btn.focus, .focus.sign-up-form-btn, .focus.about-btn, .focus.press-btn {
+  .btn:focus, .sign-up-form-btn:focus, .about-btn:focus, .press-btn:focus, .blog-btn:focus, .btn.focus, .focus.sign-up-form-btn, .focus.about-btn, .focus.press-btn, .focus.blog-btn {
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }
-  .btn.disabled, .disabled.sign-up-form-btn, .disabled.about-btn, .disabled.press-btn, .btn:disabled, .sign-up-form-btn:disabled, .about-btn:disabled, .press-btn:disabled {
+  .btn.disabled, .disabled.sign-up-form-btn, .disabled.about-btn, .disabled.press-btn, .disabled.blog-btn, .btn:disabled, .sign-up-form-btn:disabled, .about-btn:disabled, .press-btn:disabled, .blog-btn:disabled {
     opacity: 0.65; }
 
-a.btn.disabled, a.disabled.sign-up-form-btn, a.disabled.about-btn, a.disabled.press-btn,
+a.btn.disabled, a.disabled.sign-up-form-btn, a.disabled.about-btn, a.disabled.press-btn, a.disabled.blog-btn,
 fieldset:disabled a.btn,
 fieldset:disabled a.sign-up-form-btn,
 fieldset:disabled a.about-btn,
-fieldset:disabled a.press-btn {
+fieldset:disabled a.press-btn,
+fieldset:disabled a.blog-btn {
   pointer-events: none; }
 
 .btn-primary {
@@ -2067,33 +2068,35 @@ fieldset:disabled a.press-btn {
     color: #6c757d;
     pointer-events: none; }
 
-.btn-lg, .btn-group-lg > .btn, .btn-group-lg > .sign-up-form-btn, .btn-group-lg > .about-btn, .btn-group-lg > .press-btn {
+.btn-lg, .btn-group-lg > .btn, .btn-group-lg > .sign-up-form-btn, .btn-group-lg > .about-btn, .btn-group-lg > .press-btn, .btn-group-lg > .blog-btn {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   line-height: 1.5;
   border-radius: 0.3rem; }
 
-.btn-sm, .btn-group-sm > .btn, .btn-group-sm > .sign-up-form-btn, .btn-group-sm > .about-btn, .btn-group-sm > .press-btn {
+.btn-sm, .btn-group-sm > .btn, .btn-group-sm > .sign-up-form-btn, .btn-group-sm > .about-btn, .btn-group-sm > .press-btn, .btn-group-sm > .blog-btn {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
   line-height: 1.5;
   border-radius: 0.2rem; }
 
-.btn-block, .sign-up-form-btn, .about-btn, .press-btn {
+.btn-block, .sign-up-form-btn, .about-btn, .press-btn, .blog-btn {
   display: block;
   width: 100%; }
-  .btn-block + .btn-block, .sign-up-form-btn + .btn-block, .about-btn + .btn-block, .press-btn + .btn-block, .btn-block + .sign-up-form-btn, .sign-up-form-btn + .sign-up-form-btn, .about-btn + .sign-up-form-btn, .press-btn + .sign-up-form-btn, .btn-block + .about-btn, .sign-up-form-btn + .about-btn, .about-btn + .about-btn, .press-btn + .about-btn, .btn-block + .press-btn, .sign-up-form-btn + .press-btn, .about-btn + .press-btn, .press-btn + .press-btn {
+  .btn-block + .btn-block, .sign-up-form-btn + .btn-block, .about-btn + .btn-block, .press-btn + .btn-block, .blog-btn + .btn-block, .btn-block + .sign-up-form-btn, .sign-up-form-btn + .sign-up-form-btn, .about-btn + .sign-up-form-btn, .press-btn + .sign-up-form-btn, .blog-btn + .sign-up-form-btn, .btn-block + .about-btn, .sign-up-form-btn + .about-btn, .about-btn + .about-btn, .press-btn + .about-btn, .blog-btn + .about-btn, .btn-block + .press-btn, .sign-up-form-btn + .press-btn, .about-btn + .press-btn, .press-btn + .press-btn, .blog-btn + .press-btn, .btn-block + .blog-btn, .sign-up-form-btn + .blog-btn, .about-btn + .blog-btn, .press-btn + .blog-btn, .blog-btn + .blog-btn {
     margin-top: 0.5rem; }
 
-input[type="submit"].btn-block, input.sign-up-form-btn[type="submit"], input.about-btn[type="submit"], input.press-btn[type="submit"],
+input[type="submit"].btn-block, input.sign-up-form-btn[type="submit"], input.about-btn[type="submit"], input.press-btn[type="submit"], input.blog-btn[type="submit"],
 input[type="reset"].btn-block,
 input.sign-up-form-btn[type="reset"],
 input.about-btn[type="reset"],
 input.press-btn[type="reset"],
+input.blog-btn[type="reset"],
 input[type="button"].btn-block,
 input.sign-up-form-btn[type="button"],
 input.about-btn[type="button"],
-input.press-btn[type="button"] {
+input.press-btn[type="button"],
+input.blog-btn[type="button"] {
   width: 100%; }
 
 .fade {
@@ -2323,32 +2326,37 @@ input.press-btn[type="button"] {
   position: relative;
   display: inline-flex;
   vertical-align: middle; }
-  .btn-group > .btn, .btn-group > .sign-up-form-btn, .btn-group > .about-btn, .btn-group > .press-btn,
+  .btn-group > .btn, .btn-group > .sign-up-form-btn, .btn-group > .about-btn, .btn-group > .press-btn, .btn-group > .blog-btn,
   .btn-group-vertical > .btn,
   .btn-group-vertical > .sign-up-form-btn,
   .btn-group-vertical > .about-btn,
-  .btn-group-vertical > .press-btn {
+  .btn-group-vertical > .press-btn,
+  .btn-group-vertical > .blog-btn {
     position: relative;
     flex: 1 1 auto; }
-    .btn-group > .btn:hover, .btn-group > .sign-up-form-btn:hover, .btn-group > .about-btn:hover, .btn-group > .press-btn:hover,
+    .btn-group > .btn:hover, .btn-group > .sign-up-form-btn:hover, .btn-group > .about-btn:hover, .btn-group > .press-btn:hover, .btn-group > .blog-btn:hover,
     .btn-group-vertical > .btn:hover,
     .btn-group-vertical > .sign-up-form-btn:hover,
     .btn-group-vertical > .about-btn:hover,
-    .btn-group-vertical > .press-btn:hover {
+    .btn-group-vertical > .press-btn:hover,
+    .btn-group-vertical > .blog-btn:hover {
       z-index: 1; }
-    .btn-group > .btn:focus, .btn-group > .sign-up-form-btn:focus, .btn-group > .about-btn:focus, .btn-group > .press-btn:focus, .btn-group > .btn:active, .btn-group > .sign-up-form-btn:active, .btn-group > .about-btn:active, .btn-group > .press-btn:active, .btn-group > .btn.active, .btn-group > .active.sign-up-form-btn, .btn-group > .active.about-btn, .btn-group > .active.press-btn,
+    .btn-group > .btn:focus, .btn-group > .sign-up-form-btn:focus, .btn-group > .about-btn:focus, .btn-group > .press-btn:focus, .btn-group > .blog-btn:focus, .btn-group > .btn:active, .btn-group > .sign-up-form-btn:active, .btn-group > .about-btn:active, .btn-group > .press-btn:active, .btn-group > .blog-btn:active, .btn-group > .btn.active, .btn-group > .active.sign-up-form-btn, .btn-group > .active.about-btn, .btn-group > .active.press-btn, .btn-group > .active.blog-btn,
     .btn-group-vertical > .btn:focus,
     .btn-group-vertical > .sign-up-form-btn:focus,
     .btn-group-vertical > .about-btn:focus,
     .btn-group-vertical > .press-btn:focus,
+    .btn-group-vertical > .blog-btn:focus,
     .btn-group-vertical > .btn:active,
     .btn-group-vertical > .sign-up-form-btn:active,
     .btn-group-vertical > .about-btn:active,
     .btn-group-vertical > .press-btn:active,
+    .btn-group-vertical > .blog-btn:active,
     .btn-group-vertical > .btn.active,
     .btn-group-vertical > .active.sign-up-form-btn,
     .btn-group-vertical > .active.about-btn,
-    .btn-group-vertical > .active.press-btn {
+    .btn-group-vertical > .active.press-btn,
+    .btn-group-vertical > .active.blog-btn {
       z-index: 1; }
 
 .btn-toolbar {
@@ -2358,23 +2366,25 @@ input.press-btn[type="button"] {
   .btn-toolbar .input-group {
     width: auto; }
 
-.btn-group > .btn:not(:first-child), .btn-group > .sign-up-form-btn:not(:first-child), .btn-group > .about-btn:not(:first-child), .btn-group > .press-btn:not(:first-child),
+.btn-group > .btn:not(:first-child), .btn-group > .sign-up-form-btn:not(:first-child), .btn-group > .about-btn:not(:first-child), .btn-group > .press-btn:not(:first-child), .btn-group > .blog-btn:not(:first-child),
 .btn-group > .btn-group:not(:first-child) {
   margin-left: -1px; }
 
-.btn-group > .btn:not(:last-child):not(.dropdown-toggle), .btn-group > .sign-up-form-btn:not(:last-child):not(.dropdown-toggle), .btn-group > .about-btn:not(:last-child):not(.dropdown-toggle), .btn-group > .press-btn:not(:last-child):not(.dropdown-toggle),
+.btn-group > .btn:not(:last-child):not(.dropdown-toggle), .btn-group > .sign-up-form-btn:not(:last-child):not(.dropdown-toggle), .btn-group > .about-btn:not(:last-child):not(.dropdown-toggle), .btn-group > .press-btn:not(:last-child):not(.dropdown-toggle), .btn-group > .blog-btn:not(:last-child):not(.dropdown-toggle),
 .btn-group > .btn-group:not(:last-child) > .btn,
 .btn-group > .btn-group:not(:last-child) > .sign-up-form-btn,
 .btn-group > .btn-group:not(:last-child) > .about-btn,
-.btn-group > .btn-group:not(:last-child) > .press-btn {
+.btn-group > .btn-group:not(:last-child) > .press-btn,
+.btn-group > .btn-group:not(:last-child) > .blog-btn {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0; }
 
-.btn-group > .btn:not(:first-child), .btn-group > .sign-up-form-btn:not(:first-child), .btn-group > .about-btn:not(:first-child), .btn-group > .press-btn:not(:first-child),
+.btn-group > .btn:not(:first-child), .btn-group > .sign-up-form-btn:not(:first-child), .btn-group > .about-btn:not(:first-child), .btn-group > .press-btn:not(:first-child), .btn-group > .blog-btn:not(:first-child),
 .btn-group > .btn-group:not(:first-child) > .btn,
 .btn-group > .btn-group:not(:first-child) > .sign-up-form-btn,
 .btn-group > .btn-group:not(:first-child) > .about-btn,
-.btn-group > .btn-group:not(:first-child) > .press-btn {
+.btn-group > .btn-group:not(:first-child) > .press-btn,
+.btn-group > .btn-group:not(:first-child) > .blog-btn {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0; }
 
@@ -2388,11 +2398,11 @@ input.press-btn[type="button"] {
   .dropleft .dropdown-toggle-split::before {
     margin-right: 0; }
 
-.btn-sm + .dropdown-toggle-split, .btn-group-sm > .btn + .dropdown-toggle-split, .btn-group-sm > .sign-up-form-btn + .dropdown-toggle-split, .btn-group-sm > .about-btn + .dropdown-toggle-split, .btn-group-sm > .press-btn + .dropdown-toggle-split {
+.btn-sm + .dropdown-toggle-split, .btn-group-sm > .btn + .dropdown-toggle-split, .btn-group-sm > .sign-up-form-btn + .dropdown-toggle-split, .btn-group-sm > .about-btn + .dropdown-toggle-split, .btn-group-sm > .press-btn + .dropdown-toggle-split, .btn-group-sm > .blog-btn + .dropdown-toggle-split {
   padding-right: 0.375rem;
   padding-left: 0.375rem; }
 
-.btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split, .btn-group-lg > .sign-up-form-btn + .dropdown-toggle-split, .btn-group-lg > .about-btn + .dropdown-toggle-split, .btn-group-lg > .press-btn + .dropdown-toggle-split {
+.btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split, .btn-group-lg > .sign-up-form-btn + .dropdown-toggle-split, .btn-group-lg > .about-btn + .dropdown-toggle-split, .btn-group-lg > .press-btn + .dropdown-toggle-split, .btn-group-lg > .blog-btn + .dropdown-toggle-split {
   padding-right: 0.75rem;
   padding-left: 0.75rem; }
 
@@ -2405,45 +2415,52 @@ input.press-btn[type="button"] {
   .btn-group-vertical > .sign-up-form-btn,
   .btn-group-vertical > .about-btn,
   .btn-group-vertical > .press-btn,
+  .btn-group-vertical > .blog-btn,
   .btn-group-vertical > .btn-group {
     width: 100%; }
-  .btn-group-vertical > .btn:not(:first-child), .btn-group-vertical > .sign-up-form-btn:not(:first-child), .btn-group-vertical > .about-btn:not(:first-child), .btn-group-vertical > .press-btn:not(:first-child),
+  .btn-group-vertical > .btn:not(:first-child), .btn-group-vertical > .sign-up-form-btn:not(:first-child), .btn-group-vertical > .about-btn:not(:first-child), .btn-group-vertical > .press-btn:not(:first-child), .btn-group-vertical > .blog-btn:not(:first-child),
   .btn-group-vertical > .btn-group:not(:first-child) {
     margin-top: -1px; }
-  .btn-group-vertical > .btn:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .sign-up-form-btn:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .about-btn:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .press-btn:not(:last-child):not(.dropdown-toggle),
+  .btn-group-vertical > .btn:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .sign-up-form-btn:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .about-btn:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .press-btn:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .blog-btn:not(:last-child):not(.dropdown-toggle),
   .btn-group-vertical > .btn-group:not(:last-child) > .btn,
   .btn-group-vertical > .btn-group:not(:last-child) > .sign-up-form-btn,
   .btn-group-vertical > .btn-group:not(:last-child) > .about-btn,
-  .btn-group-vertical > .btn-group:not(:last-child) > .press-btn {
+  .btn-group-vertical > .btn-group:not(:last-child) > .press-btn,
+  .btn-group-vertical > .btn-group:not(:last-child) > .blog-btn {
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0; }
-  .btn-group-vertical > .btn:not(:first-child), .btn-group-vertical > .sign-up-form-btn:not(:first-child), .btn-group-vertical > .about-btn:not(:first-child), .btn-group-vertical > .press-btn:not(:first-child),
+  .btn-group-vertical > .btn:not(:first-child), .btn-group-vertical > .sign-up-form-btn:not(:first-child), .btn-group-vertical > .about-btn:not(:first-child), .btn-group-vertical > .press-btn:not(:first-child), .btn-group-vertical > .blog-btn:not(:first-child),
   .btn-group-vertical > .btn-group:not(:first-child) > .btn,
   .btn-group-vertical > .btn-group:not(:first-child) > .sign-up-form-btn,
   .btn-group-vertical > .btn-group:not(:first-child) > .about-btn,
-  .btn-group-vertical > .btn-group:not(:first-child) > .press-btn {
+  .btn-group-vertical > .btn-group:not(:first-child) > .press-btn,
+  .btn-group-vertical > .btn-group:not(:first-child) > .blog-btn {
     border-top-left-radius: 0;
     border-top-right-radius: 0; }
 
-.btn-group-toggle > .btn, .btn-group-toggle > .sign-up-form-btn, .btn-group-toggle > .about-btn, .btn-group-toggle > .press-btn,
+.btn-group-toggle > .btn, .btn-group-toggle > .sign-up-form-btn, .btn-group-toggle > .about-btn, .btn-group-toggle > .press-btn, .btn-group-toggle > .blog-btn,
 .btn-group-toggle > .btn-group > .btn,
 .btn-group-toggle > .btn-group > .sign-up-form-btn,
 .btn-group-toggle > .btn-group > .about-btn,
-.btn-group-toggle > .btn-group > .press-btn {
+.btn-group-toggle > .btn-group > .press-btn,
+.btn-group-toggle > .btn-group > .blog-btn {
   margin-bottom: 0; }
-  .btn-group-toggle > .btn input[type="radio"], .btn-group-toggle > .sign-up-form-btn input[type="radio"], .btn-group-toggle > .about-btn input[type="radio"], .btn-group-toggle > .press-btn input[type="radio"],
+  .btn-group-toggle > .btn input[type="radio"], .btn-group-toggle > .sign-up-form-btn input[type="radio"], .btn-group-toggle > .about-btn input[type="radio"], .btn-group-toggle > .press-btn input[type="radio"], .btn-group-toggle > .blog-btn input[type="radio"],
   .btn-group-toggle > .btn input[type="checkbox"],
   .btn-group-toggle > .sign-up-form-btn input[type="checkbox"],
   .btn-group-toggle > .about-btn input[type="checkbox"],
   .btn-group-toggle > .press-btn input[type="checkbox"],
+  .btn-group-toggle > .blog-btn input[type="checkbox"],
   .btn-group-toggle > .btn-group > .btn input[type="radio"],
   .btn-group-toggle > .btn-group > .sign-up-form-btn input[type="radio"],
   .btn-group-toggle > .btn-group > .about-btn input[type="radio"],
   .btn-group-toggle > .btn-group > .press-btn input[type="radio"],
+  .btn-group-toggle > .btn-group > .blog-btn input[type="radio"],
   .btn-group-toggle > .btn-group > .btn input[type="checkbox"],
   .btn-group-toggle > .btn-group > .sign-up-form-btn input[type="checkbox"],
   .btn-group-toggle > .btn-group > .about-btn input[type="checkbox"],
-  .btn-group-toggle > .btn-group > .press-btn input[type="checkbox"] {
+  .btn-group-toggle > .btn-group > .press-btn input[type="checkbox"],
+  .btn-group-toggle > .btn-group > .blog-btn input[type="checkbox"] {
     position: absolute;
     clip: rect(0, 0, 0, 0);
     pointer-events: none; }
@@ -2508,54 +2525,69 @@ input.press-btn[type="button"] {
 .input-group-prepend,
 .input-group-append {
   display: flex; }
-  .input-group-prepend .btn, .input-group-prepend .sign-up-form-btn, .input-group-prepend .about-btn, .input-group-prepend .press-btn,
+  .input-group-prepend .btn, .input-group-prepend .sign-up-form-btn, .input-group-prepend .about-btn, .input-group-prepend .press-btn, .input-group-prepend .blog-btn,
   .input-group-append .btn,
   .input-group-append .sign-up-form-btn,
   .input-group-append .about-btn,
-  .input-group-append .press-btn {
+  .input-group-append .press-btn,
+  .input-group-append .blog-btn {
     position: relative;
     z-index: 2; }
-    .input-group-prepend .btn:focus, .input-group-prepend .sign-up-form-btn:focus, .input-group-prepend .about-btn:focus, .input-group-prepend .press-btn:focus,
+    .input-group-prepend .btn:focus, .input-group-prepend .sign-up-form-btn:focus, .input-group-prepend .about-btn:focus, .input-group-prepend .press-btn:focus, .input-group-prepend .blog-btn:focus,
     .input-group-append .btn:focus,
     .input-group-append .sign-up-form-btn:focus,
     .input-group-append .about-btn:focus,
-    .input-group-append .press-btn:focus {
+    .input-group-append .press-btn:focus,
+    .input-group-append .blog-btn:focus {
       z-index: 3; }
-  .input-group-prepend .btn + .btn, .input-group-prepend .sign-up-form-btn + .btn, .input-group-prepend .about-btn + .btn, .input-group-prepend .press-btn + .btn, .input-group-prepend .btn + .sign-up-form-btn, .input-group-prepend .sign-up-form-btn + .sign-up-form-btn, .input-group-prepend .about-btn + .sign-up-form-btn, .input-group-prepend .press-btn + .sign-up-form-btn, .input-group-prepend .btn + .about-btn, .input-group-prepend .sign-up-form-btn + .about-btn, .input-group-prepend .about-btn + .about-btn, .input-group-prepend .press-btn + .about-btn, .input-group-prepend .btn + .press-btn, .input-group-prepend .sign-up-form-btn + .press-btn, .input-group-prepend .about-btn + .press-btn, .input-group-prepend .press-btn + .press-btn,
+  .input-group-prepend .btn + .btn, .input-group-prepend .sign-up-form-btn + .btn, .input-group-prepend .about-btn + .btn, .input-group-prepend .press-btn + .btn, .input-group-prepend .blog-btn + .btn, .input-group-prepend .btn + .sign-up-form-btn, .input-group-prepend .sign-up-form-btn + .sign-up-form-btn, .input-group-prepend .about-btn + .sign-up-form-btn, .input-group-prepend .press-btn + .sign-up-form-btn, .input-group-prepend .blog-btn + .sign-up-form-btn, .input-group-prepend .btn + .about-btn, .input-group-prepend .sign-up-form-btn + .about-btn, .input-group-prepend .about-btn + .about-btn, .input-group-prepend .press-btn + .about-btn, .input-group-prepend .blog-btn + .about-btn, .input-group-prepend .btn + .press-btn, .input-group-prepend .sign-up-form-btn + .press-btn, .input-group-prepend .about-btn + .press-btn, .input-group-prepend .press-btn + .press-btn, .input-group-prepend .blog-btn + .press-btn, .input-group-prepend .btn + .blog-btn, .input-group-prepend .sign-up-form-btn + .blog-btn, .input-group-prepend .about-btn + .blog-btn, .input-group-prepend .press-btn + .blog-btn, .input-group-prepend .blog-btn + .blog-btn,
   .input-group-prepend .btn + .input-group-text,
   .input-group-prepend .sign-up-form-btn + .input-group-text,
   .input-group-prepend .about-btn + .input-group-text,
   .input-group-prepend .press-btn + .input-group-text,
+  .input-group-prepend .blog-btn + .input-group-text,
   .input-group-prepend .input-group-text + .input-group-text,
   .input-group-prepend .input-group-text + .btn,
   .input-group-prepend .input-group-text + .sign-up-form-btn,
   .input-group-prepend .input-group-text + .about-btn,
   .input-group-prepend .input-group-text + .press-btn,
+  .input-group-prepend .input-group-text + .blog-btn,
   .input-group-append .btn + .btn,
   .input-group-append .sign-up-form-btn + .btn,
   .input-group-append .about-btn + .btn,
   .input-group-append .press-btn + .btn,
+  .input-group-append .blog-btn + .btn,
   .input-group-append .btn + .sign-up-form-btn,
   .input-group-append .sign-up-form-btn + .sign-up-form-btn,
   .input-group-append .about-btn + .sign-up-form-btn,
   .input-group-append .press-btn + .sign-up-form-btn,
+  .input-group-append .blog-btn + .sign-up-form-btn,
   .input-group-append .btn + .about-btn,
   .input-group-append .sign-up-form-btn + .about-btn,
   .input-group-append .about-btn + .about-btn,
   .input-group-append .press-btn + .about-btn,
+  .input-group-append .blog-btn + .about-btn,
   .input-group-append .btn + .press-btn,
   .input-group-append .sign-up-form-btn + .press-btn,
   .input-group-append .about-btn + .press-btn,
   .input-group-append .press-btn + .press-btn,
+  .input-group-append .blog-btn + .press-btn,
+  .input-group-append .btn + .blog-btn,
+  .input-group-append .sign-up-form-btn + .blog-btn,
+  .input-group-append .about-btn + .blog-btn,
+  .input-group-append .press-btn + .blog-btn,
+  .input-group-append .blog-btn + .blog-btn,
   .input-group-append .btn + .input-group-text,
   .input-group-append .sign-up-form-btn + .input-group-text,
   .input-group-append .about-btn + .input-group-text,
   .input-group-append .press-btn + .input-group-text,
+  .input-group-append .blog-btn + .input-group-text,
   .input-group-append .input-group-text + .input-group-text,
   .input-group-append .input-group-text + .btn,
   .input-group-append .input-group-text + .sign-up-form-btn,
   .input-group-append .input-group-text + .about-btn,
-  .input-group-append .input-group-text + .press-btn {
+  .input-group-append .input-group-text + .press-btn,
+  .input-group-append .input-group-text + .blog-btn {
     margin-left: -1px; }
 
 .input-group-prepend {
@@ -2594,10 +2626,12 @@ input.press-btn[type="button"] {
 .input-group-lg > .input-group-prepend > .sign-up-form-btn,
 .input-group-lg > .input-group-prepend > .about-btn,
 .input-group-lg > .input-group-prepend > .press-btn,
+.input-group-lg > .input-group-prepend > .blog-btn,
 .input-group-lg > .input-group-append > .btn,
 .input-group-lg > .input-group-append > .sign-up-form-btn,
 .input-group-lg > .input-group-append > .about-btn,
-.input-group-lg > .input-group-append > .press-btn {
+.input-group-lg > .input-group-append > .press-btn,
+.input-group-lg > .input-group-append > .blog-btn {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   line-height: 1.5;
@@ -2615,10 +2649,12 @@ input.press-btn[type="button"] {
 .input-group-sm > .input-group-prepend > .sign-up-form-btn,
 .input-group-sm > .input-group-prepend > .about-btn,
 .input-group-sm > .input-group-prepend > .press-btn,
+.input-group-sm > .input-group-prepend > .blog-btn,
 .input-group-sm > .input-group-append > .btn,
 .input-group-sm > .input-group-append > .sign-up-form-btn,
 .input-group-sm > .input-group-append > .about-btn,
-.input-group-sm > .input-group-append > .press-btn {
+.input-group-sm > .input-group-append > .press-btn,
+.input-group-sm > .input-group-append > .blog-btn {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
   line-height: 1.5;
@@ -2628,32 +2664,36 @@ input.press-btn[type="button"] {
 .input-group-sm > .custom-select {
   padding-right: 1.75rem; }
 
-.input-group > .input-group-prepend > .btn, .input-group > .input-group-prepend > .sign-up-form-btn, .input-group > .input-group-prepend > .about-btn, .input-group > .input-group-prepend > .press-btn,
+.input-group > .input-group-prepend > .btn, .input-group > .input-group-prepend > .sign-up-form-btn, .input-group > .input-group-prepend > .about-btn, .input-group > .input-group-prepend > .press-btn, .input-group > .input-group-prepend > .blog-btn,
 .input-group > .input-group-prepend > .input-group-text,
 .input-group > .input-group-append:not(:last-child) > .btn,
 .input-group > .input-group-append:not(:last-child) > .sign-up-form-btn,
 .input-group > .input-group-append:not(:last-child) > .about-btn,
 .input-group > .input-group-append:not(:last-child) > .press-btn,
+.input-group > .input-group-append:not(:last-child) > .blog-btn,
 .input-group > .input-group-append:not(:last-child) > .input-group-text,
 .input-group > .input-group-append:last-child > .btn:not(:last-child):not(.dropdown-toggle),
 .input-group > .input-group-append:last-child > .sign-up-form-btn:not(:last-child):not(.dropdown-toggle),
 .input-group > .input-group-append:last-child > .about-btn:not(:last-child):not(.dropdown-toggle),
 .input-group > .input-group-append:last-child > .press-btn:not(:last-child):not(.dropdown-toggle),
+.input-group > .input-group-append:last-child > .blog-btn:not(:last-child):not(.dropdown-toggle),
 .input-group > .input-group-append:last-child > .input-group-text:not(:last-child) {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0; }
 
-.input-group > .input-group-append > .btn, .input-group > .input-group-append > .sign-up-form-btn, .input-group > .input-group-append > .about-btn, .input-group > .input-group-append > .press-btn,
+.input-group > .input-group-append > .btn, .input-group > .input-group-append > .sign-up-form-btn, .input-group > .input-group-append > .about-btn, .input-group > .input-group-append > .press-btn, .input-group > .input-group-append > .blog-btn,
 .input-group > .input-group-append > .input-group-text,
 .input-group > .input-group-prepend:not(:first-child) > .btn,
 .input-group > .input-group-prepend:not(:first-child) > .sign-up-form-btn,
 .input-group > .input-group-prepend:not(:first-child) > .about-btn,
 .input-group > .input-group-prepend:not(:first-child) > .press-btn,
+.input-group > .input-group-prepend:not(:first-child) > .blog-btn,
 .input-group > .input-group-prepend:not(:first-child) > .input-group-text,
 .input-group > .input-group-prepend:first-child > .btn:not(:first-child),
 .input-group > .input-group-prepend:first-child > .sign-up-form-btn:not(:first-child),
 .input-group > .input-group-prepend:first-child > .about-btn:not(:first-child),
 .input-group > .input-group-prepend:first-child > .press-btn:not(:first-child),
+.input-group > .input-group-prepend:first-child > .blog-btn:not(:first-child),
 .input-group > .input-group-prepend:first-child > .input-group-text:not(:first-child) {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0; }
@@ -3588,7 +3628,7 @@ input.press-btn[type="button"] {
   .badge:empty {
     display: none; }
 
-.btn .badge, .sign-up-form-btn .badge, .about-btn .badge, .press-btn .badge {
+.btn .badge, .sign-up-form-btn .badge, .about-btn .badge, .press-btn .badge, .blog-btn .badge {
   position: relative;
   top: -1px; }
 
@@ -7086,7 +7126,7 @@ a.text-dark:hover, a.text-dark:focus {
   *::after {
     text-shadow: none !important;
     box-shadow: none !important; }
-  a:not(.btn):not(.sign-up-form-btn):not(.about-btn):not(.press-btn) {
+  a:not(.btn):not(.sign-up-form-btn):not(.about-btn):not(.press-btn):not(.blog-btn) {
     text-decoration: underline; }
   abbr[title]::after {
     content: " (" attr(title) ")"; }
@@ -7170,6 +7210,12 @@ a.text-dark:hover, a.text-dark:focus {
   font-weight: normal;
   font-style: normal; }
 
+a {
+  color: #ff033e;
+  font-weight: 600; }
+  a:hover {
+    text-decoration: underline; }
+
 h1 {
   font-family: "betonextra_bold", "Alegreya SC", "Rockwell Nova", serif;
   color: #ff033e;
@@ -7216,7 +7262,7 @@ p {
 
 a {
   text-decoration: none; }
-  a.btn-purple:hover, a.sign-up-form-btn:hover, a.press-btn:hover {
+  a.btn-purple:hover, a.sign-up-form-btn:hover, a.press-btn:hover, a.blog-btn:hover {
     color: #ffffff;
     cursor: pointer; }
   a:hover {
@@ -7393,12 +7439,12 @@ nav {
     cursor: pointer; }
 
 .nuxt-link-active {
-  color: #B7B7C8; }
+  color: #6c64b4; }
 
 footer .navbar-item {
   text-align: left; }
 
-.btn, .sign-up-form-btn, .about-btn, .press-btn {
+.btn, .sign-up-form-btn, .about-btn, .press-btn, .blog-btn {
   border-radius: 0;
   min-height: 24px;
   padding: 0.5rem .75rem;
@@ -7406,20 +7452,20 @@ footer .navbar-item {
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 0.1rem; }
-  .btn:active, .sign-up-form-btn:active, .about-btn:active, .press-btn:active, .btn:hover, .sign-up-form-btn:hover, .about-btn:hover, .press-btn:hover {
+  .btn:active, .sign-up-form-btn:active, .about-btn:active, .press-btn:active, .blog-btn:active, .btn:hover, .sign-up-form-btn:hover, .about-btn:hover, .press-btn:hover, .blog-btn:hover {
     cursor: pointer; }
   .btn-white, .about-btn {
     background-color: #ffffff;
     color: #ff033e; }
     .btn-white:hover, .about-btn:hover, .btn-white:active, .about-btn:active {
       color: #ff033e; }
-  .btn-layered, .press-btn {
+  .btn-layered, .press-btn, .blog-btn {
     box-shadow: 0.4rem 0.4rem #ff033e;
     transition: box-shadow 0.25s ease; }
-    .btn-layered:hover, .press-btn:hover {
+    .btn-layered:hover, .press-btn:hover, .blog-btn:hover {
       box-shadow: 0.5rem 0.5rem #e90036;
       cursor: pointer; }
-    .btn-layered:active, .press-btn:active {
+    .btn-layered:active, .press-btn:active, .blog-btn:active {
       box-shadow: 0.25rem 0.25rem #e90036;
       cursor: pointer; }
   .btn-layered-purple, .sign-up-form-btn {
@@ -7432,7 +7478,7 @@ footer .navbar-item {
       box-shadow: 0.25rem 0.25rem rgba(11, 11, 51, 0.5);
       cursor: pointer; }
   @media (min-width: 1200px) {
-    .btn, .sign-up-form-btn, .about-btn, .press-btn {
+    .btn, .sign-up-form-btn, .about-btn, .press-btn, .blog-btn {
       padding: 0.688rem; } }
 
 .about-btn {
@@ -7449,10 +7495,10 @@ footer .navbar-item {
       width: 80%;
       margin: 0 auto; } }
 
-.btn-purple, .sign-up-form-btn, .press-btn {
+.btn-purple, .sign-up-form-btn, .press-btn, .blog-btn {
   background-color: #0f1048;
   color: #ffffff; }
-  .btn-purple:hover, .sign-up-form-btn:hover, .press-btn:hover, .btn-purple:active, .sign-up-form-btn:active, .press-btn:active {
+  .btn-purple:hover, .sign-up-form-btn:hover, .press-btn:hover, .blog-btn:hover, .btn-purple:active, .sign-up-form-btn:active, .press-btn:active, .blog-btn:active {
     background-color: #0b0b33;
     color: #ffffff; }
 
@@ -7608,7 +7654,7 @@ footer .navbar-item {
 .img-emoji {
   height: 1.25rem;
   display: inline;
-  width: 1rem;
+  width: 1.25rem;
   margin-right: 0.3rem;
   margin-bottom: 0.1rem; }
 
@@ -7642,7 +7688,6 @@ footer .navbar-item {
     cursor: text; }
 
 .card-columns {
-  margin-top: 2rem;
   -webkit-column-count: 1;
   column-count: 1; }
   @media (min-width: 768px) {
@@ -7655,12 +7700,18 @@ footer .navbar-item {
     .card-columns {
       -webkit-column-count: 3;
       column-count: 3; } }
+  @media (min-width: 1200px) {
+    .card-columns-blog {
+      -webkit-column-count: 2;
+      column-count: 2; } }
 
 .press-card, .blog-card {
   display: inline-block;
   position: relative;
   padding: 2rem 1.5rem 1rem 1.5rem;
   margin-top: 1rem; }
+  .press-card:first-of-type, .blog-card:first-of-type {
+    margin-top: 0; }
   @media (min-width: 768px) {
     .press-card, .blog-card {
       padding: 2rem 2rem 1rem 2rem; } }
@@ -7741,6 +7792,9 @@ footer .navbar-item {
       background-color: #ff033e;
       color: #ffffff; }
 
+.blog-card-btn {
+  margin-top: 2rem; }
+
 #about {
   background-color: #0f1048;
   padding-top: 0; }
@@ -7761,7 +7815,7 @@ footer .navbar-item {
   background-color: #f0f0f5; }
 
 @media (min-width: 1200px) {
-  .press-btn {
+  .press-btn, .blog-btn {
     width: 80%;
     margin: 0 auto; } }
 
@@ -7808,20 +7862,6 @@ footer .navbar-item {
   left: 50%;
   z-index: 2000000000000; }
 
-#header {
-  background-color: #ff033e;
-  padding-top: 1rem;
-  padding-bottom: 2rem; }
-  @media (min-width: 768px) {
-    #header {
-      padding-top: 2rem;
-      padding-bottom: 4rem; } }
-  @media (min-width: 1200px) {
-    #header {
-      padding-bottom: 10rem; } }
-  #header p {
-    color: #ffffff; }
-
 @media (min-width: 768px) {
   .col-header-content {
     padding: 4rem 0 0 0; } }
@@ -7844,6 +7884,26 @@ footer {
     footer a:hover, footer a:active {
       cursor: pointer;
       color: #ff033e; }
+
+#header {
+  background-color: #ff033e;
+  padding-top: 1rem;
+  padding-bottom: 2rem; }
+  @media (min-width: 768px) {
+    #header {
+      padding-top: 2rem;
+      padding-bottom: 4rem; } }
+  @media (min-width: 1200px) {
+    #header {
+      padding-bottom: 10rem; } }
+  #header p {
+    color: #ffffff; }
+
+.page-content {
+  padding: 2rem 1rem; }
+  @media (min-width: 992px) {
+    .page-content {
+      padding: 4rem auto 4rem auto; } }
 
 section {
   padding: 4rem 1rem;

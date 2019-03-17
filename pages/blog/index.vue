@@ -12,7 +12,12 @@
         <section class="page-content">
             <div class="container">
                 <div class="row">
-                    <div class="card-columns">
+                    <div class="col">
+                        <p>Check out Shaun's posts on <a href="https://medium.com/@ElectScott2019" target="_blank">Medium</a></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card-columns card-columns-blog" style="">
                         <article
                             v-for="blogPost in blogPosts" :key="blogPost.id" 
                             class="card blog-card blog-post">
@@ -31,6 +36,15 @@
                         <!--/press card-->
                     </div>
                 </div>
+                <div class="row mt-4">
+                    <div class="col-md-4 offset-md-4">
+                        <a class="blog-btn" href="https://medium.com/@ElectScott2019" target="_blank">
+                            <img src="@/assets/img/icons/newspaper-emoji.png" alt="news emoji" class="img-emoji">
+                            More Articles
+                        </a>
+                    </div>
+                </div>
+            <!--/row-->
             </div>
         </section>
     </main>
@@ -58,10 +72,10 @@ export default {
         axios.get('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@ElectScott2019')
             // .then((res) => res.json())
             .then(res=>{
-                console.log(res)
+                // console.log(res)
                 const data = res.data.items
                 console.log('data')
-                console.log(data)
+                // console.log(data)
                 const posts = data.filter(item => item.categories.length > 0)
                 console.log('posts')
                 console.log(posts)

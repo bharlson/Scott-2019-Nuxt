@@ -28,21 +28,6 @@
 //     position: relative;
 // }
 
-#header{
-    background-color: $red;
-    padding-top: 1rem;
-    padding-bottom:2rem;  
-    @media(min-width:$md){
-        padding-top:2rem;
-        padding-bottom:4rem;
-    }
-    @media(min-width:$xl){
-        padding-bottom: 10rem;
-    }
-    p{
-        color:$white;
-    }  
-}
 
 .col-header-content{
     @extend .col-lg-6, .offset-lg-4, .front;
@@ -76,12 +61,35 @@ footer{
     }
 }
 
+#header{
+    background-color: $red;
+    padding-top: 1rem;
+    padding-bottom:2rem;  
+    @media(min-width:$md){
+        padding-top:2rem;
+        padding-bottom:4rem;
+    }
+    @media(min-width:$xl){
+        padding-bottom: 10rem;
+    }
+    p{
+        color:$white;
+    }  
+}
 
-
+.page-content{
+    padding:2rem 1rem;
+    @media(min-width:$lg){
+        padding:4rem auto 4rem auto;
+    }
+}
 
 section{
     padding:4rem 1rem;
     width:100%;
+    @media(min-width:$md){
+
+    }
     @media(min-width:$lg){
         padding:4rem auto 4rem auto;
     }

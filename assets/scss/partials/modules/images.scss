@@ -104,7 +104,9 @@
 .col-logo{
     @extend 
     .col-8, 
-    .offset-2, 
+    .offset-2,
+    .col-sm-4,
+    .offset-sm-4,
     .col-md-3,  
     .col-lg-2, 
     .offset-lg-0;
@@ -145,7 +147,7 @@
     &-emoji{
         height:1.25rem;
         display: inline;
-        width:1rem;
+        width:1.25rem;
         margin-right: 0.3rem;
         margin-bottom: 0.1rem;
         @media(min-width:$md){

@@ -1,5 +1,5 @@
 <template>
-        <section id="press">
+    <section id="press" class="page-content">
         <div class="container">
             <slot name="subhead"></slot>
             <!--/row-->

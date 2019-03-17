@@ -61,7 +61,7 @@
     </section>
     <section id="press">
         <div class="container">
-            <div class="row">
+            <div class="row mb-4">
                 <div class="col">
                     <h1>In the news</h1>
                 </div>

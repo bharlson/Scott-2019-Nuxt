@@ -79,7 +79,6 @@ export default {
     },
     methods: {
         copyAddress() {
-            //need to debug this 
             /* Get the text field */
             var copyText = document.getElementById("democracy-voucher-address-box")
             // /* Select the text field */

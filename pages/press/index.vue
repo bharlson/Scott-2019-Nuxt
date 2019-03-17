@@ -9,7 +9,8 @@
                 </div>
             </div>
         </section>
-        <section-press></section-press>
+        <section-press>
+        </section-press>
     </main>
 </template>
 <script>

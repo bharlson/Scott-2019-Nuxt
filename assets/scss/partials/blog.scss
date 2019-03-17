@@ -1,4 +1,7 @@
 .blog{
+    &-btn{
+        @extend .press-btn;
+    }
     &-post{
         &-title{
             text-align: center;
@@ -39,6 +42,7 @@
         }
         &-btn{
             @extend .press-card-btn;
+            margin-top: 2rem;
         }
 
     }

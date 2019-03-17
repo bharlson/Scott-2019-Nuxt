@@ -8,7 +8,7 @@
                 <nuxt-link to="platform" class="navbar-link">Platform</nuxt-link>
             </li>
             <li class="navbar-item">
-                <nuxt-link to="blog" class="navbar-link" target="_blank">Blog</nuxt-link>
+                <nuxt-link to="blog" class="navbar-link">Blog</nuxt-link>
             </li>
             <li class="navbar-item">
                 <nuxt-link to="press" class="navbar-link">Press</nuxt-link>
