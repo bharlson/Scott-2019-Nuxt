@@ -10,7 +10,6 @@
 <style lang="scss">
   @import '@/assets/scss/partials/variables.scss';
   .default{
-
     header{
         background-color:$purple;
         padding-top: 1rem;
@@ -76,9 +75,9 @@
 </style>
 
 <script>
-import DefaultHeader from '@/components/DefaultHeader.vue'
-import DefaultOutreach from '@/components/sections/DefaultOutreach.vue'
-import DefaultFooter from '@/components/DefaultFooter.vue'
+import DefaultHeader from '@/components/Default/DefaultHeader.vue'
+import DefaultOutreach from '@/components/Default/DefaultOutreach.vue'
+import DefaultFooter from '@/components/Default/DefaultFooter.vue'
 export default {
   components: {
     DefaultHeader,

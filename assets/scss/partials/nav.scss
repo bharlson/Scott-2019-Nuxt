@@ -33,7 +33,7 @@ nav{
         letter-spacing: 0.1rem;
         transition:color 0.25s ease;
         &:hover,&:active,&.active{
-            color:$red;
+            color:$active-page-color;
             cursor: pointer;
         }
     }
@@ -45,12 +45,15 @@ nav{
 footer{
     .navbar{
         &-item{
-            @extend .col, .col-md-4;
+            @extend .col-6, .col-md;
             // padding-right: 0;
             text-align: left;
+            &:first-of-type{
+                // @extend .col-md-3;
+            }
             &:last-of-type{
-                @extend .col-md;
-            } 
+                @extend .col-md-4;
+            }
         }
     }
 }

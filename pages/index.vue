@@ -17,11 +17,11 @@
                 </div>
                 <div class="col-lg-6">
                     <p>I’m running to represent Seattle City Council District 4 because I have a vision for Seattle
-                        that is rooted in addressing and alleviating the condition of our most vulnerable citizens. As
+                        that is rooted in addressing and alleviating the conditions of our most vulnerable residents. As
                         a former student at the University of Washington, a renter in District 4, and a labor organizer
                         with the Campaign Workers Guild, I’m intimately familiar with how struggles for affordable
-                        housing and economic justice weigh on residents of my district. Join me in making Seattle a
-                        fair city. Let’s imagine a future for us all.</p>
+                        housing and economic justice weigh on the residents of our district. Join me in making Seattle a
+                        fair city. Let’s create a future for us all.</p>
                 </div>
             </div>
             <!--/row-->
@@ -31,7 +31,7 @@
                         PUBLIC HOUSING
                     </p>
                     <p class="text-demand">
-                        Progressive Taxation
+                        Tax the 
                     </p>
                     <p class="text-demand">
                         Free Public transit
@@ -140,12 +140,7 @@
                     <h1>Endorsements</h1>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-6 offset-md-3">
-                    <a href="https://seattledsa.org/"><img class="img-fluid" src="../assets/img/SDSA-square.svg" alt="Seattle DSA logo"></a>
-                    <!-- <figcaption>SEATTLE DEMOCRATIC SOCIALISTS OF AMERICA</figcaption>                 -->
-                </div>
-            </div>
+            <endorsements></endorsements>
         </div>
     </section>
     <section id="outreach">
@@ -184,10 +179,14 @@
 
 <script>
 import Logo from '~/components/Logo.vue'
+import Endorsements from '~/components/Endorsements.vue'
+import PressCards from '~/components/sections/Press.vue'
 
 export default {
   components: {
-    Logo
+    Endorsements,
+    Logo,
+    PressCards
   },
   layout: 'home_layout'
 }

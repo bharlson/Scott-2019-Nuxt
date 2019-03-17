@@ -13,10 +13,10 @@
     &-layered {
         box-shadow: 0.4rem 0.4rem $purple;
         transition: box-shadow 0.25s ease;
-        &:focus,
-        &:active {
-            box-shadow: 0.5rem 0.5rem $purple;
+        &:focus{
+            box-shadow: 0.25rem 0.25rem $purple;
         }
+        @include input-layered
     }
 
     @media(max-width:$sm) {

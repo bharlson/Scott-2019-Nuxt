@@ -23,6 +23,181 @@
 		"oAP": "/.gitignore",
 		"oF": 0
 		},
+	"/.nuxt/App.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/.nuxt/App-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/.nuxt/bootstrap-vue.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/.nuxt/bootstrap-vue-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/.nuxt/client.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/.nuxt/client-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/.nuxt/components/no-ssr.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/.nuxt/components/no-ssr-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/.nuxt/components/nuxt-child.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/.nuxt/components/nuxt-child-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/.nuxt/components/nuxt-error.vue": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/.nuxt/components/nuxt-error.vue",
+		"oF": 0
+		},
+	"/.nuxt/components/nuxt-link.client.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/.nuxt/components/nuxt-link.client-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/.nuxt/components/nuxt-link.server.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/.nuxt/components/nuxt-link.server-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/.nuxt/components/nuxt-loading.vue": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/.nuxt/components/nuxt-loading.vue",
+		"oF": 0
+		},
+	"/.nuxt/components/nuxt.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/.nuxt/components/nuxt-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/.nuxt/empty.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/.nuxt/empty-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/.nuxt/index.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/.nuxt/index-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/.nuxt/loading.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/.nuxt/loading.html",
+		"oF": 0
+		},
+	"/.nuxt/middleware.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/.nuxt/middleware-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/.nuxt/router.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/.nuxt/router-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/.nuxt/server.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/.nuxt/server-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/.nuxt/utils.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/.nuxt/utils-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/.nuxt/views/app.template.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/.nuxt/views/app.template.html",
+		"oF": 0
+		},
+	"/.nuxt/views/error.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/.nuxt/views/error.html",
+		"oF": 0
+		},
 	"/assets/css/main.css": {
 		"aP": 1,
 		"bl": 0,
@@ -140,7 +315,7 @@
 		"oAP": "/assets/img/delete-ur-account.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/assets/img/democracy-vouchers/by-mail.jpg": {
@@ -624,28 +799,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/img/shaun-halftone@2x.png": {
-		"ft": 32768,
-		"iS": 2760318,
-		"oA": 0,
-		"oAP": "/assets/img/shaun-halftone@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/shaun-halftone@3x.png": {
-		"ft": 32768,
-		"iS": 5472676,
-		"oA": 0,
-		"oAP": "/assets/img/shaun-halftone@3x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/assets/img/shaun-lake-union.jpg": {
 		"ft": 16384,
 		"iS": 460508,
@@ -679,27 +832,15 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/img/stranger@2x.png": {
-		"ft": 32768,
-		"iS": 34577,
-		"oA": 0,
-		"oAP": "/assets/img/stranger@2x.png",
+	"/assets/img/The_Guardian.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/assets/img/The_Guardian.svg",
 		"oF": 0,
-		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/stranger@3x.png": {
-		"ft": 32768,
-		"iS": 55559,
-		"oA": 0,
-		"oAP": "/assets/img/stranger@3x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/assets/img/urbanist-logo.png": {
 		"ft": 32768,
@@ -717,28 +858,6 @@
 		"iS": 19596,
 		"oA": 0,
 		"oAP": "/assets/img/voucher-hand.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/voucher-hand@2x.png": {
-		"ft": 32768,
-		"iS": 58582,
-		"oA": 0,
-		"oAP": "/assets/img/voucher-hand@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/voucher-hand@3x.png": {
-		"ft": 32768,
-		"iS": 117129,
-		"oA": 0,
-		"oAP": "/assets/img/voucher-hand@3x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -955,32 +1074,46 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/components/DefaultFooter.vue": {
+	"/components/Default/DefaultFooter.vue": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/components/DefaultFooter.vue",
+		"oAP": "/components/Default/DefaultFooter.vue",
 		"oF": 0
 		},
-	"/components/DefaultHeader.vue": {
+	"/components/Default/DefaultHeader.vue": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/components/DefaultHeader.vue",
+		"oAP": "/components/Default/DefaultHeader.vue",
 		"oF": 0
 		},
-	"/components/Footer.vue": {
+	"/components/Default/DefaultOutreach.vue": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/components/Footer.vue",
+		"oAP": "/components/Default/DefaultOutreach.vue",
 		"oF": 0
 		},
-	"/components/HomeHeader.vue": {
+	"/components/Endorsements.vue": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/components/HomeHeader.vue",
+		"oAP": "/components/Endorsements.vue",
+		"oF": 0
+		},
+	"/components/Home/HomeFooter.vue": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/components/Home/HomeFooter.vue",
+		"oF": 0
+		},
+	"/components/Home/HomeHeader.vue": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/components/Home/HomeHeader.vue",
 		"oF": 0
 		},
 	"/components/Logo.vue": {
@@ -990,25 +1123,18 @@
 		"oAP": "/components/Logo.vue",
 		"oF": 0
 		},
-	"/components/Nav.vue": {
+	"/components/Nav/FooterNav.vue": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/components/Nav.vue",
+		"oAP": "/components/Nav/FooterNav.vue",
 		"oF": 0
 		},
-	"/components/NavList.vue": {
+	"/components/Nav/HeaderNav.vue": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/components/NavList.vue",
-		"oF": 0
-		},
-	"/components/NavListSecondary.vue": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/components/NavListSecondary.vue",
+		"oAP": "/components/Nav/HeaderNav.vue",
 		"oF": 0
 		},
 	"/components/README.md": {
@@ -1028,13 +1154,6 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
-		},
-	"/components/sections/DefaultOutreach.vue": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/components/sections/DefaultOutreach.vue",
-		"oF": 0
 		},
 	"/components/sections/Press.vue": {
 		"cB": 0,
@@ -1064,122 +1183,122 @@
 		"oAP": "/dist/200.html",
 		"oF": 0
 		},
-	"/dist/_nuxt/023b44b95d5d0b40dc8a.js": {
+	"/dist/_nuxt/0fe3c63049e67f80a251.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dist/_nuxt/023b44b95d5d0b40dc8a-min.js",
+		"oAP": "/dist/_nuxt/0fe3c63049e67f80a251-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dist/_nuxt/0945cafe22d61ca5739c.js": {
+	"/dist/_nuxt/18251c4691dc6cfff8d0.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dist/_nuxt/0945cafe22d61ca5739c-min.js",
+		"oAP": "/dist/_nuxt/18251c4691dc6cfff8d0-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dist/_nuxt/1b6494284dc999acd92c.js": {
+	"/dist/_nuxt/248da972827d330dc232.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dist/_nuxt/1b6494284dc999acd92c-min.js",
+		"oAP": "/dist/_nuxt/248da972827d330dc232-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dist/_nuxt/256aa9eb95c4d590b67e.js": {
+	"/dist/_nuxt/55325cfc04e9047d1181.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dist/_nuxt/256aa9eb95c4d590b67e-min.js",
+		"oAP": "/dist/_nuxt/55325cfc04e9047d1181-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dist/_nuxt/39bf13e712fa2d928dae.js": {
+	"/dist/_nuxt/774ccffbd8a3cb296e77.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dist/_nuxt/39bf13e712fa2d928dae-min.js",
+		"oAP": "/dist/_nuxt/774ccffbd8a3cb296e77-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dist/_nuxt/4152c6d62cdf2b2afc4f.js": {
+	"/dist/_nuxt/77ee0b821e74e649acf9.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dist/_nuxt/4152c6d62cdf2b2afc4f-min.js",
+		"oAP": "/dist/_nuxt/77ee0b821e74e649acf9-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dist/_nuxt/8a434b0815fc35fc2a37.js": {
+	"/dist/_nuxt/a8c1ac978eae9ef8bba3.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dist/_nuxt/8a434b0815fc35fc2a37-min.js",
+		"oAP": "/dist/_nuxt/a8c1ac978eae9ef8bba3-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dist/_nuxt/99067f9b12096c6eb751.js": {
+	"/dist/_nuxt/af02905218dc2fa2aa75.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dist/_nuxt/99067f9b12096c6eb751-min.js",
+		"oAP": "/dist/_nuxt/af02905218dc2fa2aa75-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dist/_nuxt/c78492d69fae7e2c026b.js": {
+	"/dist/_nuxt/b2e729235ecaabcf8f31.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dist/_nuxt/c78492d69fae7e2c026b-min.js",
+		"oAP": "/dist/_nuxt/b2e729235ecaabcf8f31-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dist/_nuxt/d3670c40b5f85eb01f43.js": {
+	"/dist/_nuxt/e416819689ca0e04dd1a.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dist/_nuxt/d3670c40b5f85eb01f43-min.js",
+		"oAP": "/dist/_nuxt/e416819689ca0e04dd1a-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dist/_nuxt/dfa7f76c63a64377940b.js": {
+	"/dist/_nuxt/e91c6f3fdc3dfe8f08b3.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dist/_nuxt/dfa7f76c63a64377940b-min.js",
+		"oAP": "/dist/_nuxt/e91c6f3fdc3dfe8f08b3-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dist/_nuxt/f2e2178f2baf3c001728.js": {
+	"/dist/_nuxt/f41624cb9a8e5c2a41d3.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dist/_nuxt/f2e2178f2baf3c001728-min.js",
+		"oAP": "/dist/_nuxt/f41624cb9a8e5c2a41d3-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -1223,6 +1342,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/dist/_nuxt/img/0a262d0.jpg": {
+		"ft": 16384,
+		"iS": 23268,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/_nuxt/img/0a262d0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/dist/_nuxt/img/0dafcd7.jpg": {
 		"ft": 16384,
 		"iS": 78320,
@@ -1256,6 +1386,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/dist/_nuxt/img/149feef.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/dist/_nuxt/img/149feef.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/dist/_nuxt/img/1d9278e.png": {
 		"ft": 32768,
 		"iS": 290313,
@@ -1266,16 +1406,6 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
-		},
-	"/dist/_nuxt/img/35a45d5.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/dist/_nuxt/img/35a45d5.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
 		},
 	"/dist/_nuxt/img/51b44c8.svg": {
 		"ft": 2097152,
@@ -1381,17 +1511,6 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/dist/_nuxt/img/cdd817e.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/dist/_nuxt/img/dc65204.jpg": {
-		"ft": 16384,
-		"iS": 286502,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/_nuxt/img/dc65204.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1545,553 +1664,6 @@
 		"oA": 0,
 		"oAP": "/dist/fonts/fontawesome-webfont.woff2",
 		"oF": 0
-		},
-	"/dist/img/bg.jpg": {
-		"ft": 16384,
-		"iS": 130818,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/img/bg.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/dist/img/cityscape-drawing.png": {
-		"ft": 32768,
-		"iS": 290313,
-		"oA": 0,
-		"oAP": "/dist/img/cityscape-drawing.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/cool-shaun.jpg": {
-		"ft": 16384,
-		"iS": 769392,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/img/cool-shaun.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/dist/img/delete-ur-account.jpg": {
-		"ft": 16384,
-		"iS": 286502,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/img/delete-ur-account.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/dist/img/dsa-logo.png": {
-		"ft": 32768,
-		"iS": 37849,
-		"oA": 0,
-		"oAP": "/dist/img/dsa-logo.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/dsa-rose-mark.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/dist/img/dsa-rose-mark.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/dist/img/header-shaun-mobile.png": {
-		"ft": 32768,
-		"iS": 327165,
-		"oA": 0,
-		"oAP": "/dist/img/header-shaun-mobile.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/header-shaun.png": {
-		"ft": 32768,
-		"iS": 1186607,
-		"oA": 0,
-		"oAP": "/dist/img/header-shaun.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/icons/facebook.png": {
-		"ft": 32768,
-		"iS": 400,
-		"oA": 0,
-		"oAP": "/dist/img/icons/facebook.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/icons/facebook.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/dist/img/icons/facebook.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/dist/img/icons/facebook@2x.png": {
-		"ft": 32768,
-		"iS": 717,
-		"oA": 0,
-		"oAP": "/dist/img/icons/facebook@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/icons/facebook@3x.png": {
-		"ft": 32768,
-		"iS": 1051,
-		"oA": 0,
-		"oAP": "/dist/img/icons/facebook@3x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/icons/favicon.gif": {
-		"ft": 4194304,
-		"iS": 847,
-		"oA": 0,
-		"oAP": "/dist/img/icons/favicon.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"/dist/img/icons/favicon.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/dist/img/icons/favicon.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/dist/img/icons/fist-emoji.png": {
-		"ft": 32768,
-		"iS": 2064,
-		"oA": 0,
-		"oAP": "/dist/img/icons/fist-emoji.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/icons/fist-emoji@2x.png": {
-		"ft": 32768,
-		"iS": 5729,
-		"oA": 0,
-		"oAP": "/dist/img/icons/fist-emoji@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/icons/fist-emoji@3x.png": {
-		"ft": 32768,
-		"iS": 11158,
-		"oA": 0,
-		"oAP": "/dist/img/icons/fist-emoji@3x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/icons/money-emoji.png": {
-		"ft": 32768,
-		"iS": 4051,
-		"oA": 0,
-		"oAP": "/dist/img/icons/money-emoji.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/icons/money-emoji@2x.png": {
-		"ft": 32768,
-		"iS": 13075,
-		"oA": 0,
-		"oAP": "/dist/img/icons/money-emoji@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/icons/money-emoji@3x.png": {
-		"ft": 32768,
-		"iS": 26733,
-		"oA": 0,
-		"oAP": "/dist/img/icons/money-emoji@3x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/icons/newspaper-emoji.png": {
-		"ft": 32768,
-		"iS": 1891,
-		"oA": 0,
-		"oAP": "/dist/img/icons/newspaper-emoji.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/icons/newspaper-emoji@2x.png": {
-		"ft": 32768,
-		"iS": 6275,
-		"oA": 0,
-		"oAP": "/dist/img/icons/newspaper-emoji@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/icons/newspaper-emoji@3x.png": {
-		"ft": 32768,
-		"iS": 12959,
-		"oA": 0,
-		"oAP": "/dist/img/icons/newspaper-emoji@3x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/icons/paid-for-by.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/dist/img/icons/paid-for-by.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/dist/img/icons/rose-emoji.png": {
-		"ft": 32768,
-		"iS": 2264,
-		"oA": 0,
-		"oAP": "/dist/img/icons/rose-emoji.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/icons/rose-emoji@2x.png": {
-		"ft": 32768,
-		"iS": 6580,
-		"oA": 0,
-		"oAP": "/dist/img/icons/rose-emoji@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/icons/rose-emoji@3x.png": {
-		"ft": 32768,
-		"iS": 12595,
-		"oA": 0,
-		"oAP": "/dist/img/icons/rose-emoji@3x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/icons/twitterr.png": {
-		"ft": 32768,
-		"iS": 1055,
-		"oA": 0,
-		"oAP": "/dist/img/icons/twitterr.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/icons/twitterr@2x.png": {
-		"ft": 32768,
-		"iS": 2193,
-		"oA": 0,
-		"oAP": "/dist/img/icons/twitterr@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/icons/twitterr@3x.png": {
-		"ft": 32768,
-		"iS": 3326,
-		"oA": 0,
-		"oAP": "/dist/img/icons/twitterr@3x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/icons/wave.png": {
-		"ft": 32768,
-		"iS": 3064,
-		"oA": 0,
-		"oAP": "/dist/img/icons/wave.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/icons/wave@2x.png": {
-		"ft": 32768,
-		"iS": 8819,
-		"oA": 0,
-		"oAP": "/dist/img/icons/wave@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/icons/wave@3x.png": {
-		"ft": 32768,
-		"iS": 16470,
-		"oA": 0,
-		"oAP": "/dist/img/icons/wave@3x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/icons/waving-icon.png": {
-		"ft": 32768,
-		"iS": 11915,
-		"oA": 0,
-		"oAP": "/dist/img/icons/waving-icon.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/Logo placeholder.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/dist/img/Logo placeholder.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/dist/img/logo-placeholder.png": {
-		"ft": 32768,
-		"iS": 5379,
-		"oA": 0,
-		"oAP": "/dist/img/logo-placeholder.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/logo-placeholder@2x.png": {
-		"ft": 32768,
-		"iS": 11853,
-		"oA": 0,
-		"oAP": "/dist/img/logo-placeholder@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/logo-placeholder@3x.png": {
-		"ft": 32768,
-		"iS": 18240,
-		"oA": 0,
-		"oAP": "/dist/img/logo-placeholder@3x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/myra-logo.jpg": {
-		"ft": 16384,
-		"iS": 176448,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/img/myra-logo.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/dist/img/myra-logo.png": {
-		"ft": 32768,
-		"iS": 73630,
-		"oA": 0,
-		"oAP": "/dist/img/myra-logo.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/Scott 2019_compressed.pdf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/dist/img/Scott 2019_compressed.pdf",
-		"oF": 0
-		},
-	"/dist/img/SDSA-square.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/dist/img/SDSA-square.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/dist/img/sdsa_logo_bg.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/dist/img/sdsa_logo_bg.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/dist/img/shaun-halftone.png": {
-		"ft": 32768,
-		"iS": 274939,
-		"oA": 0,
-		"oAP": "/dist/img/shaun-halftone.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/shaun-lake-union.jpg": {
-		"ft": 16384,
-		"iS": 460508,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/img/shaun-lake-union.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/dist/img/shaun-ph-bg.jpg": {
-		"ft": 16384,
-		"iS": 140731,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/img/shaun-ph-bg.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/dist/img/stranger.png": {
-		"ft": 32768,
-		"iS": 15498,
-		"oA": 0,
-		"oAP": "/dist/img/stranger.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/stranger@2x.png": {
-		"ft": 32768,
-		"iS": 34577,
-		"oA": 0,
-		"oAP": "/dist/img/stranger@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/stranger@3x.png": {
-		"ft": 32768,
-		"iS": 55559,
-		"oA": 0,
-		"oAP": "/dist/img/stranger@3x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/urbanist-logo.png": {
-		"ft": 32768,
-		"iS": 2636,
-		"oA": 0,
-		"oAP": "/dist/img/urbanist-logo.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/voucher-hand.png": {
-		"ft": 32768,
-		"iS": 19596,
-		"oA": 0,
-		"oAP": "/dist/img/voucher-hand.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
 		},
 	"/dist/index.html": {
 		"cB": 0,

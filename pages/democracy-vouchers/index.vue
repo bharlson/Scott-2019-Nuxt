@@ -91,9 +91,8 @@ export default {
         },
         hideTooltip(){
             this.tooltipShown = !this.tooltipShown;
-        },
+        }
     }
-    
 }
 </script>
 <style lang="scss" scoped>

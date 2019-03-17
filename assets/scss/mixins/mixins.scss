@@ -36,6 +36,26 @@
         cursor: pointer;
     }
 }
+
+@mixin input-layered($color:rgba($purple,0.75 )){
+    box-shadow: 0.4rem 0.4rem $color;
+    transform: 0;
+    transition: 
+        box-shadow 0.25s ease
+        transform 0.1s ease;
+    // &:hover{
+    //     box-shadow: 0.5rem 0.5rem darken($color,5%);
+    //     cursor: pointer;
+    // }
+    &:hover,&:active{
+        box-shadow: 0.25rem 0.25rem darken($color,5%);
+        cursor: pointer;
+    }
+    &:focus{
+        box-shadow: 0.25rem 0.25rem darken($color,5%); 
+        transform: scale(1.01);
+    }
+}
 // &-layered{
 //     box-shadow: 0.4rem 0.4rem $red;
 //     transition: box-shadow 0.25s ease;

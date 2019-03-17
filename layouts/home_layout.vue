@@ -1,21 +1,21 @@
 <template>
   <div>
     <home-header></home-header>
-    <nav-list></nav-list>
+    <header-nav></header-nav>
     <nuxt />
     <home-footer></home-footer>
   </div>
 </template>
 
 <script>
-import homeHeader from '@/components/HomeHeader.vue'
-import navList from '@/components/NavList.vue'
-import homeFooter from '@/components/Footer.vue'
+import HomeHeader from '@/components/Home/HomeHeader.vue'
+import HeaderNav from '@/components/Nav/HeaderNav.vue'
+import HomeFooter from '@/components/Home/HomeFooter.vue'
 export default {
     components: {
-        homeFooter,
-        homeHeader,
-        navList
+        HomeFooter,
+        HomeHeader,
+        HeaderNav
     }
 }
 </script>
