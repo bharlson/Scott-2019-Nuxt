@@ -1,44 +1,36 @@
 <template>
-    <section id="press" class="page-content">
-        <div class="container">
-            <slot name="subhead"></slot>
-            <!--/row-->
-            <div class="card-columns">
-                <article 
-                    v-for="i in pressItems"
-                    :key="i"
-                    class="card press-card">
-                    <figure>
-                        <a :href="i.link">
-                            <img :src="i.imgSrc" :alt="srcName" class="press-card-img">
-                        </a>
-                        <figcaption :style="'margin-top:' + i.captionOffset">
-                            {{i.caption}}
-                        </figcaption>
-                    </figure>
-                    <p class="press-card-text">
-                        {{i.blurb}}
-                    </p>
-                    <a :href="i.link"
-                        class="btn press-card-btn">
-                        {{i.btnText}}
-                    </a>
-                </article>
-                <!--/press card-->
-            </div>
-            <!--/row-->
-            <slot name="btn-row"></slot>
-            <!--/row-->
+    <div class="row">
+        <div class="card-columns">
+            <press-card 
+                v-for="i in pressItems.slice(0,limit)"
+                :key="i"
+                :dataSrc="i"
+                >
+            </press-card>
         </div>
-        <!--/container-->
-    </section>
+    </div>
     <!--/Press-->
 </template>
 <script>
+import PressCard from '@/components/Cards/PressCard.vue'
 export default {
+    props:{
+        limit:{
+            type:Number
+        }
+    },
     data(){
         return{
             pressItems:[
+                {
+                    srcName:'The Stranger',
+                    imgSrc:require('@/assets/img/stranger.png'),
+                    caption:'Op-Ed',
+                    captionOffset:'0',
+                    blurb:'"Into the next century, climate refugees will be the new face of immigration to cities like Seattle. They’ll find a city that did what was possible, did what was necessary, and—as a result—seemed to do the impossible. If we implement a Seattle Green New Deal, those on the way, and those already here, will find a city that is a true sanctuary from the ravages of climate change."',
+                    link:'https://www.thestranger.com/slog/2019/03/28/39751396/its-time-for-seattles-green-new-deal',
+                    btnText:'FULL ARTICLE'
+                },
                 {
                     srcName:'The Guardian',
                     imgSrc:require('@/assets/img/The_Guardian.svg'),
@@ -86,6 +78,9 @@ export default {
                 },
             ]
         }
+    },
+    components:{
+        PressCard
     }
 }
 </script>

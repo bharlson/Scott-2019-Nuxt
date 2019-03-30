@@ -7206,7 +7206,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 @font-face {
   font-family: 'betonextra_bold';
-  src: url("../../static/fonts/Beton-ExtBol.otf") format("opentype"), url("../../static/fonts/beton-extbol-webfont.woff2") format("woff2"), url("../../static/fonts/beton-extbol-webfont.woff") format("woff"), url("../../static/fonts/beton-extbol-webfont.ttf") format("truetype");
+  src: url("/fonts/Beton-ExtBol.otf") format("opentype"), url("/fonts/beton-extbol-webfont.woff2") format("woff2"), url("/fonts/beton-extbol-webfont.woff") format("woff"), url("/fonts/beton-extbol-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
@@ -7244,14 +7244,14 @@ h2 {
     color: #ffffff; }
 
 body {
-  font-family: "Avenir", "Proxima Nova", "Open Sans", Helvetica, "Verdana", Arial, sans-serif;
+  font-family: "Avenir", "Proxima Nova", "Montserrat", Helvetica, "Verdana", Arial, sans-serif;
   color: #0f1048; }
   body::selection {
     background-color: #ff033e;
     color: #ffffff; }
 
 p {
-  font-family: "Avenir", "Proxima Nova", "Open Sans", Helvetica, "Verdana", Arial, sans-serif;
+  font-family: "Avenir", "Proxima Nova", "Montserrat", Helvetica, "Verdana", Arial, sans-serif;
   font-weight: 400;
   line-height: 1.75rem;
   font-size: 18px;
@@ -7296,7 +7296,7 @@ figcaption, small {
 
 .text-header {
   display: block;
-  font-family: "Avenir", "Proxima Nova", "Open Sans", Helvetica, "Verdana", Arial, sans-serif;
+  font-family: "Avenir", "Proxima Nova", "Montserrat", Helvetica, "Verdana", Arial, sans-serif;
   color: #ffffff;
   text-transform: uppercase;
   font-weight: 600;
@@ -7327,7 +7327,7 @@ figcaption, small {
         margin-bottom: -1.2rem; } }
 
 .text-demand, .sign-up-form h5 {
-  font-family: "Avenir", "Proxima Nova", "Open Sans", Helvetica, "Verdana", Arial, sans-serif;
+  font-family: "Avenir", "Proxima Nova", "Montserrat", Helvetica, "Verdana", Arial, sans-serif;
   color: #ffffff;
   text-transform: uppercase;
   font-weight: 600;
@@ -7632,6 +7632,13 @@ footer .navbar-item {
       max-width: 40%;
       left: 15%;
       top: 4rem; } }
+  @media (min-width: 2000px) {
+    .header-shaun {
+      max-width: 35%;
+      left: 20%; } }
+  @media (min-width: 2500px) {
+    .header-shaun {
+      left: 25%; } }
 
 @media (min-width: 768px) {
   .col-logo {
@@ -7672,7 +7679,8 @@ footer .navbar-item {
   display: block;
   margin: 0 auto;
   padding-bottom: 0;
-  bottom: 0; }
+  bottom: 0;
+  cursor: text; }
 
 .img-blog-thumbnail {
   max-width: 300px; }
@@ -7701,16 +7709,20 @@ footer .navbar-item {
   column-count: 1; }
   @media (min-width: 768px) {
     .card-columns {
-      -webkit-column-count: 2;
-      column-count: 2;
+      -webkit-column-count: 1;
+      column-count: 1;
       -webkit-column-gap: 1rem;
       column-gap: 1rem; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 992px) {
     .card-columns {
       -webkit-column-count: 3;
       column-count: 3; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 992px) {
     .card-columns-blog {
+      -webkit-column-count: 2;
+      column-count: 2; } }
+  @media (min-width: 768px) {
+    .card-columns-endorsements {
       -webkit-column-count: 2;
       column-count: 2; } }
 
@@ -7719,19 +7731,25 @@ footer .navbar-item {
   position: relative;
   padding: 2rem 1.5rem 1rem 1.5rem;
   margin-top: 1rem; }
-  .press-card:first-of-type, .blog-card:first-of-type, .endorsement-card:first-of-type {
-    margin-top: 0; }
   @media (min-width: 768px) {
     .press-card, .blog-card, .endorsement-card {
-      padding: 2rem 2rem 1rem 2rem; } }
-  .press-card-img, .blog-card-img, .endorsement-card-img {
+      padding: 2rem 2rem 1rem 2rem;
+      max-width: 80%;
+      align-self: center;
+      margin-left: 12%; } }
+  @media (min-width: 992px) {
+    .press-card, .blog-card, .endorsement-card {
+      max-width: 100%;
+      margin-left: 0; } }
+  .press-card-img, .endorsement-card-img {
     display: block;
     margin: 0 auto;
     max-width: 200px;
     max-height: 100px; }
-    @media (min-width: 768px) {
-      .press-card-img, .blog-card-img, .endorsement-card-img {
-        max-width: 240px; } }
+    @media (min-width: 992px) {
+      .press-card-img, .endorsement-card-img {
+        max-width: 240px;
+        width: auto; } }
   .press-card-text::after, .endorsement-card-text::after {
     content: '';
     display: block;
@@ -7748,6 +7766,23 @@ footer .navbar-item {
     transition: color 0.25s ease; }
     .press-card-btn:active, .blog-card-btn:active, .press-card-btn:hover, .blog-card-btn:hover, .endorsement-card-btn:active, .endorsement-card-btn:hover {
       color: #ff033e; }
+
+.endorsement-card {
+  width: 100%;
+  background-color: #f0f0f5;
+  padding: 2rem; }
+  @media (min-width: 576px) {
+    .endorsement-card {
+      width: auto; } }
+  .endorsement-card cite {
+    font-style: normal;
+    display: block; }
+  .endorsement-card-name {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.1rem; }
+  .endorsement-card-credit {
+    text-transform: default; }
 
 #sign-up-card {
   background-color: #f0f0f5;
@@ -7774,14 +7809,26 @@ footer .navbar-item {
   color: #ff033e;
   background-color: transparent; }
 
-.blog-post-title {
-  text-align: center; }
+.blog-card-img {
+  display: none; }
+  @media (min-width: 768px) {
+    .blog-card-img {
+      display: block;
+      max-width: 80%;
+      margin: 0 auto; } }
 
-.blog-post-description {
+.blog-card-btn {
+  margin-top: 2rem; }
+
+.blog-card-title {
+  text-align: center;
   margin-top: 1rem; }
-  .blog-post-description > * {
+
+.blog-card-description {
+  margin-top: 1rem; }
+  .blog-card-description > * {
     display: none; }
-  .blog-post-description::after {
+  .blog-card-description::after {
     content: '';
     display: block;
     position: absolute;
@@ -7790,19 +7837,16 @@ footer .navbar-item {
     left: 0;
     margin-top: 1rem;
     background-color: #f0f0f5; }
-  .blog-post-description h4:first-of-type {
+  .blog-card-description h4:first-of-type {
     display: block;
-    font-family: "Avenir", "Proxima Nova", "Open Sans", Helvetica, "Verdana", Arial, sans-serif;
+    font-family: "Avenir", "Proxima Nova", "Montserrat", Helvetica, "Verdana", Arial, sans-serif;
     font-weight: 400;
     line-height: 1.75rem;
     font-size: 18px;
     color: #0f1048; }
-    .blog-post-description h4:first-of-type::selection {
+    .blog-card-description h4:first-of-type::selection {
       background-color: #ff033e;
       color: #ffffff; }
-
-.blog-card-btn {
-  margin-top: 2rem; }
 
 #about {
   background-color: #0f1048;
@@ -7829,30 +7873,41 @@ footer .navbar-item {
     margin: 0 auto; } }
 
 #outreach {
-  background-image: url(../img/shaun-lake-union.jpg);
-  background-position: 30% 31%;
-  background-size: cover; }
+  background-image: url(../img/climate-strike-speech.jpg);
+  background-position: bottom center;
+  background-size: cover;
+  background-repeat: none; }
+  @media (min-width: 576px) {
+    #outreach {
+      background-size: 150%; } }
   @media (min-width: 768px) {
     #outreach {
-      background-size: length;
+      background-size: cover;
       background-position: -5rem 0 0 0;
       padding: 4rem 0 4rem 0; } }
   @media (min-width: 992px) {
     #outreach {
-      background-size: cover;
-      background-position: 0 0 0 0;
-      padding: 8rem 0; } }
+      background-position: 0 70%; } }
   @media (min-width: 1500px) {
     #outreach {
       background-size: cover; } }
+  @media (min-width: 1600px) {
+    #outreach {
+      background-position: 0 55%; } }
   #outreach .outreach-btn-row {
-    padding-top: 20rem; }
+    padding-top: 10rem; }
     @media (min-width: 768px) {
       #outreach .outreach-btn-row {
         padding: auto 5rem; } }
     @media (min-width: 992px) {
       #outreach .outreach-btn-row {
         padding-top: 10rem; } }
+    @media (min-width: 1200px) {
+      #outreach .outreach-btn-row {
+        padding-top: 18rem; } }
+    @media (min-width: 2280px) {
+      #outreach .outreach-btn-row {
+        padding-top: 24rem; } }
   @media (min-width: 992px) {
     #outreach .outreach-heading {
       font-size: 1.75rem; } }

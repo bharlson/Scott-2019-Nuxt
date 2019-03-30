@@ -10,10 +10,21 @@
             </div>
         </section>
         <section class="page-content">
-            <div class="container">
+            <div class="container  my-4">
                 <div class="row">
                     <div class="col">
-                        Sorry we couldn't find the page you were looking for
+                        <h2> We're Sorry</h2>
+                        <p class="intro text-center">
+                            We couldn't find the page you were looking for
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 offset-md-4">
+                        <nuxt-link exact to="/" class="btn btn-white btn-block btn-layered">
+                            <img src="@/assets/img/icons/house-emoji.png" alt="" class="img-emoji">
+                            Go Home
+                        </nuxt-link>
                     </div>
                 </div>
             </div>
@@ -22,7 +33,12 @@
 </template>
 <script>
 export default {
-  components: {
-  }
+  props:['error']
 }
 </script>
+<style scoped>
+    .page-content{
+        text-align: center;
+    }
+</style>
+

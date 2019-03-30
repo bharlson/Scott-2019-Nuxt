@@ -34,32 +34,43 @@
 }
 
 #outreach{
-    background-image: url(../img/shaun-lake-union.jpg);
-    background-position: 30% 31%;
+    background-image: url(../img/climate-strike-speech.jpg);
+    background-position:bottom center;
     background-size: cover;
+    background-repeat:none;
+    @media(min-width:$sm){
+        background-size:150%;
+    }
     
     @media(min-width:$md){
-        background-size:length;
+        background-size:cover;
         background-position: -5rem 0 0 0;
         padding:4rem 0 4rem 0;
     }
     @media(min-width:$lg){
-        background-size: cover;
-        background-position:0 0 0 0;
-        padding:8rem 0;
+        background-position:0 70%;
+        // padding:8rem 0;
     }
     @media(min-width:1500px){
         background-size: cover;
-
+    }
+    @media(min-width:$xxl){
+        background-position: 0 55%;
     }
     .outreach-btn-row{
         @extend .row;
-        padding-top: 20rem;
+        padding-top: 10rem;
         @media(min-width:$md){
             padding:auto 5rem;
         }
         @media(min-width:$lg){
             padding-top:10rem;
+        }
+        @media(min-width:$xl){
+            padding-top:18rem;
+        }
+        @media(min-width:2280px){
+            padding-top:24rem;
         }
     }
 

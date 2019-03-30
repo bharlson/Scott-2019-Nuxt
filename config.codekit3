@@ -174,6 +174,16 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/.nuxt/templates.plugin.6f977f08.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/.nuxt/templates.plugin.6f977f08-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/.nuxt/utils.js": {
 		"ft": 64,
 		"ma": 0,
@@ -296,6 +306,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/assets/img/climate-strike-speech.jpg": {
+		"ft": 16384,
+		"iS": 388519,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/climate-strike-speech.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/assets/img/cool-shaun.jpg": {
 		"ft": 16384,
 		"iS": 769392,
@@ -383,14 +404,14 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/img/header-shaun.png": {
+	"/assets/img/house-emoji.png": {
 		"ft": 32768,
-		"iS": 1186607,
+		"iS": 6505,
 		"oA": 0,
-		"oAP": "/assets/img/header-shaun.png",
+		"oAP": "/assets/img/house-emoji.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -466,25 +487,14 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/img/icons/fist-emoji@2x.png": {
+	"/assets/img/icons/house-emoji.png": {
 		"ft": 32768,
-		"iS": 5729,
+		"iS": 30369,
 		"oA": 0,
-		"oAP": "/assets/img/icons/fist-emoji@2x.png",
+		"oAP": "/assets/img/icons/house-emoji.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/icons/fist-emoji@3x.png": {
-		"ft": 32768,
-		"iS": 11158,
-		"oA": 0,
-		"oAP": "/assets/img/icons/fist-emoji@3x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -499,55 +509,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/img/icons/money-emoji@2x.png": {
-		"ft": 32768,
-		"iS": 13075,
-		"oA": 0,
-		"oAP": "/assets/img/icons/money-emoji@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/icons/money-emoji@3x.png": {
-		"ft": 32768,
-		"iS": 26733,
-		"oA": 0,
-		"oAP": "/assets/img/icons/money-emoji@3x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/assets/img/icons/newspaper-emoji.png": {
 		"ft": 32768,
 		"iS": 1891,
 		"oA": 0,
 		"oAP": "/assets/img/icons/newspaper-emoji.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/icons/newspaper-emoji@2x.png": {
-		"ft": 32768,
-		"iS": 6275,
-		"oA": 0,
-		"oAP": "/assets/img/icons/newspaper-emoji@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/icons/newspaper-emoji@3x.png": {
-		"ft": 32768,
-		"iS": 12959,
-		"oA": 0,
-		"oAP": "/assets/img/icons/newspaper-emoji@3x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -575,28 +541,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/img/icons/rose-emoji@2x.png": {
-		"ft": 32768,
-		"iS": 6580,
-		"oA": 0,
-		"oAP": "/assets/img/icons/rose-emoji@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/icons/rose-emoji@3x.png": {
-		"ft": 32768,
-		"iS": 12595,
-		"oA": 0,
-		"oAP": "/assets/img/icons/rose-emoji@3x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/assets/img/icons/twitterr.png": {
 		"ft": 32768,
 		"iS": 1055,
@@ -608,66 +552,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/img/icons/twitterr@2x.png": {
-		"ft": 32768,
-		"iS": 2193,
-		"oA": 0,
-		"oAP": "/assets/img/icons/twitterr@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/icons/twitterr@3x.png": {
-		"ft": 32768,
-		"iS": 3326,
-		"oA": 0,
-		"oAP": "/assets/img/icons/twitterr@3x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/assets/img/icons/wave.png": {
 		"ft": 32768,
 		"iS": 3064,
 		"oA": 0,
 		"oAP": "/assets/img/icons/wave.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/icons/wave@2x.png": {
-		"ft": 32768,
-		"iS": 8819,
-		"oA": 0,
-		"oAP": "/assets/img/icons/wave@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/icons/wave@3x.png": {
-		"ft": 32768,
-		"iS": 16470,
-		"oA": 0,
-		"oAP": "/assets/img/icons/wave@3x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/icons/waving-icon.png": {
-		"ft": 32768,
-		"iS": 11915,
-		"oA": 0,
-		"oAP": "/assets/img/icons/waving-icon.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -717,6 +606,39 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/assets/img/logo.png": {
+		"ft": 32768,
+		"iS": 18740,
+		"oA": 0,
+		"oAP": "/assets/img/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/logo@2x.png": {
+		"ft": 32768,
+		"iS": 37874,
+		"oA": 0,
+		"oAP": "/assets/img/logo@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/logo@3x.png": {
+		"ft": 32768,
+		"iS": 59829,
+		"oA": 0,
+		"oAP": "/assets/img/logo@3x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/assets/img/meet-shaun.jpg": {
 		"ft": 16384,
 		"iS": 426744,
@@ -752,7 +674,7 @@
 		},
 	"/assets/img/myra-logo.png": {
 		"ft": 32768,
-		"iS": 73630,
+		"iS": 0,
 		"oA": 0,
 		"oAP": "/assets/img/myra-logo.png",
 		"oF": 0,
@@ -1074,6 +996,27 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/components/Cards/BlogCard.vue": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/components/Cards/BlogCard.vue",
+		"oF": 0
+		},
+	"/components/Cards/EndorsementCard.vue": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/components/Cards/EndorsementCard.vue",
+		"oF": 0
+		},
+	"/components/Cards/PressCard.vue": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/components/Cards/PressCard.vue",
+		"oF": 0
+		},
 	"/components/Default/DefaultFooter.vue": {
 		"cB": 0,
 		"ft": 8192,
@@ -1095,13 +1038,6 @@
 		"oAP": "/components/Default/DefaultOutreach.vue",
 		"oF": 0
 		},
-	"/components/Endorsements.vue": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/components/Endorsements.vue",
-		"oF": 0
-		},
 	"/components/Home/HomeFooter.vue": {
 		"cB": 0,
 		"ft": 8192,
@@ -1114,6 +1050,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/components/Home/HomeHeader.vue",
+		"oF": 0
+		},
+	"/components/Loading.vue": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/components/Loading.vue",
 		"oF": 0
 		},
 	"/components/Logo.vue": {
@@ -1155,6 +1098,13 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"/components/sections/Endorsements.vue": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/components/sections/Endorsements.vue",
+		"oF": 0
+		},
 	"/components/sections/Press.vue": {
 		"cB": 0,
 		"ft": 8192,
@@ -1183,153 +1133,125 @@
 		"oAP": "/dist/200.html",
 		"oF": 0
 		},
-	"/dist/_nuxt/0fe3c63049e67f80a251.js": {
+	"/dist/_nuxt/02874a32fd1ddac53d5d.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dist/_nuxt/0fe3c63049e67f80a251-min.js",
+		"oAP": "/dist/_nuxt/02874a32fd1ddac53d5d-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dist/_nuxt/18251c4691dc6cfff8d0.js": {
+	"/dist/_nuxt/14f60dd02b36fc9145ec.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dist/_nuxt/18251c4691dc6cfff8d0-min.js",
+		"oAP": "/dist/_nuxt/14f60dd02b36fc9145ec-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dist/_nuxt/248da972827d330dc232.js": {
+	"/dist/_nuxt/1827ce017ecad4e5f80b.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dist/_nuxt/248da972827d330dc232-min.js",
+		"oAP": "/dist/_nuxt/1827ce017ecad4e5f80b-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dist/_nuxt/55325cfc04e9047d1181.js": {
+	"/dist/_nuxt/22840c323777253737fe.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dist/_nuxt/55325cfc04e9047d1181-min.js",
+		"oAP": "/dist/_nuxt/22840c323777253737fe-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dist/_nuxt/774ccffbd8a3cb296e77.js": {
+	"/dist/_nuxt/537d5fbe271728a963e0.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dist/_nuxt/774ccffbd8a3cb296e77-min.js",
+		"oAP": "/dist/_nuxt/537d5fbe271728a963e0-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dist/_nuxt/77ee0b821e74e649acf9.js": {
+	"/dist/_nuxt/62d1a376b472a9f5f120.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dist/_nuxt/77ee0b821e74e649acf9-min.js",
+		"oAP": "/dist/_nuxt/62d1a376b472a9f5f120-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dist/_nuxt/a8c1ac978eae9ef8bba3.js": {
+	"/dist/_nuxt/747157b1e58503ef9c46.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dist/_nuxt/a8c1ac978eae9ef8bba3-min.js",
+		"oAP": "/dist/_nuxt/747157b1e58503ef9c46-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dist/_nuxt/af02905218dc2fa2aa75.js": {
+	"/dist/_nuxt/825021bebd63a019224c.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dist/_nuxt/af02905218dc2fa2aa75-min.js",
+		"oAP": "/dist/_nuxt/825021bebd63a019224c-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dist/_nuxt/b2e729235ecaabcf8f31.js": {
+	"/dist/_nuxt/b4acfcca3d543be318a2.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dist/_nuxt/b2e729235ecaabcf8f31-min.js",
+		"oAP": "/dist/_nuxt/b4acfcca3d543be318a2-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dist/_nuxt/e416819689ca0e04dd1a.js": {
+	"/dist/_nuxt/c0171dcd70752732d9b1.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dist/_nuxt/e416819689ca0e04dd1a-min.js",
+		"oAP": "/dist/_nuxt/c0171dcd70752732d9b1-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dist/_nuxt/e91c6f3fdc3dfe8f08b3.js": {
+	"/dist/_nuxt/c877e4ba3583cd4c629d.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dist/_nuxt/e91c6f3fdc3dfe8f08b3-min.js",
+		"oAP": "/dist/_nuxt/c877e4ba3583cd4c629d-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dist/_nuxt/f41624cb9a8e5c2a41d3.js": {
+	"/dist/_nuxt/ca4c2e0d8e16a421fc22.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dist/_nuxt/f41624cb9a8e5c2a41d3-min.js",
+		"oAP": "/dist/_nuxt/ca4c2e0d8e16a421fc22-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
-		},
-	"/dist/_nuxt/fonts/03e0f7d.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/dist/_nuxt/fonts/03e0f7d.ttf",
-		"oF": 0
-		},
-	"/dist/_nuxt/fonts/4bcc9d1.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/dist/_nuxt/fonts/4bcc9d1.woff2",
-		"oF": 0
-		},
-	"/dist/_nuxt/fonts/8a95dfd.otf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/dist/_nuxt/fonts/8a95dfd.otf",
-		"oF": 0
-		},
-	"/dist/_nuxt/fonts/ae8153b.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/dist/_nuxt/fonts/ae8153b.woff",
-		"oF": 0
 		},
 	"/dist/_nuxt/img/0200c21.png": {
 		"ft": 32768,
@@ -1407,6 +1329,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/dist/_nuxt/img/2d5649e.png": {
+		"ft": 32768,
+		"iS": 8796,
+		"oA": 0,
+		"oAP": "/dist/_nuxt/img/2d5649e.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/dist/_nuxt/img/51b44c8.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1416,6 +1349,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"/dist/_nuxt/img/671c4cf.png": {
+		"ft": 32768,
+		"iS": 18740,
+		"oA": 0,
+		"oAP": "/dist/_nuxt/img/671c4cf.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/dist/_nuxt/img/679fc61.png": {
 		"ft": 32768,
@@ -1433,17 +1377,6 @@
 		"iS": 15498,
 		"oA": 0,
 		"oAP": "/dist/_nuxt/img/71cb273.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/_nuxt/img/720e910.png": {
-		"ft": 32768,
-		"iS": 73630,
-		"oA": 0,
-		"oAP": "/dist/_nuxt/img/720e910.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1472,6 +1405,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/dist/_nuxt/img/a40bfc8.jpg": {
+		"ft": 16384,
+		"iS": 388519,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/_nuxt/img/a40bfc8.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/dist/_nuxt/img/a8d4d14.png": {
 		"ft": 32768,
 		"iS": 2636,
@@ -1481,17 +1425,6 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
-		},
-	"/dist/_nuxt/img/bb38b7a.jpg": {
-		"ft": 16384,
-		"iS": 460508,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/_nuxt/img/bb38b7a.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
 		"q": 100
 		},
 	"/dist/_nuxt/img/cd15596.jpg": {
@@ -1562,6 +1495,17 @@
 		"oA": 0,
 		"oAP": "/dist/blog/index.html",
 		"oF": 0
+		},
+	"/dist/climate-strike-speech.jpg": {
+		"ft": 16384,
+		"iS": 388519,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/climate-strike-speech.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/dist/democracy-vouchers/index.html": {
 		"cB": 0,
@@ -2945,13 +2889,6 @@
 		"oAP": "/pages/democracy-vouchers/index.vue",
 		"oF": 0
 		},
-	"/pages/endorsements/index.vue": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/pages/endorsements/index.vue",
-		"oF": 0
-		},
 	"/pages/index.vue": {
 		"cB": 0,
 		"ft": 8192,
@@ -2998,6 +2935,13 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"/pages/test/index.vue": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/pages/test/index.vue",
+		"oF": 0
+		},
 	"/plugins/README.md": {
 		"cB": 0,
 		"cS": 0,
@@ -3043,6 +2987,17 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"/static/climate-strike-speech.jpg": {
+		"ft": 16384,
+		"iS": 388519,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/static/climate-strike-speech.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/static/favicon.gif": {
 		"ft": 4194304,

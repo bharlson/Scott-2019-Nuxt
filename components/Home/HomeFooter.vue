@@ -6,15 +6,22 @@
                 <div class="col-md-12 col-lg-10">
                     <footer-nav></footer-nav>
                 </div><!--/row-->
+                
             </div>
         </div>
         <textarea  v-model="address" id="democracy-voucher-address-box" >
         </textarea>
-        <img 
+        <div class="tooltip-area">
+            <tooltip v-if="tooltipShown" mode="top">Click to copy address</tooltip>
+            <img 
             @click="copyAddress"
+            @mouseover="showTooltip"
+            @mouseleave="hideTooltip"
             class="img-paid-for-by" 
             src="@/assets/img/icons/paid-for-by.svg" :alt="address">
-        <tooltip v-if="tooltipShown">Click to copy address</tooltip>
+        </div>
+
+        
     </footer>
 </template>
 <script>
@@ -25,8 +32,8 @@ import Tooltip from '@/components/Tooltip.vue';
 export default {
     data(){
         return{
-            address:'People for Shaun Scott, PO Box  45088, Seattle, WA 98145'
-
+            address:'People for Shaun Scott, PO Box  45088, Seattle, WA 98145',
+            tooltipShown: false
         }
     },
     components: {
@@ -45,9 +52,11 @@ export default {
         },
         showTooltip(){
             this.tooltipShown = !this.tooltipShown;
+            console.log('show' + this.tooltipShown);
         },
         hideTooltip(){
             this.tooltipShown = !this.tooltipShown;
+            console.log('hide' + this.tooltipShown);
         }
     }
 }

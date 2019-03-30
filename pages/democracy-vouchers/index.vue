@@ -14,7 +14,7 @@
                 <div class="row">
                     <div class="col">
                         <h2>WHAT ARE THEY AND WHY ARE THEY SO COOL?</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas unde repellat facere nisi ullam optio, numquam doloremque, obcaecati eos temporibus ipsum dolore nulla libero. Fugit officiis error tenetur ad suscipit?</p>
+                        <p>Democracy Vouchers are Seattle’s system of publicly-financed elections. Passed overwhelmingly by Seattle voters in 2015, they work by allowing every Seattleite to donate four $25 vouchers to any candidate of their choosing in city-wide races. They’ll help keep money from influencing our politics. Shaun Scott isn’t taking corporate campaign contributions—send him your vouchers today!</p>
                     </div>
                 </div>
                 <section id="democracy-vouchers-explainer">
@@ -36,14 +36,14 @@
                         <article class="col-md-4">
                             <img src="@/assets/img/democracy-vouchers/in-person.jpg" alt="in person">
                             <h3>in person</h3>
-                            <p>To hand over your vouchers in person, you can simply <a href="mailto:info@scott2019.com">get in touch with the campaign.</a></p>
+                            <p>To hand over your vouchers in person, you can simply <a href="mailto:evelyn@electscott2019.com">get in touch with the campaign.</a></p>
                         </article>
                         <article class="col-md-4">
                             <img src="@/assets/img/democracy-vouchers/by-mail.jpg" alt="By Mail">
                             <h3>By Mail</h3>
                             <p>Once you write Shaun Scott on the vouchers you can mail them back to the city using the pre-paid slip, or you can mail them directly to the campaign at: </p>
-                            <textarea  v-model="address" id="democracy-voucher-address-box" >
-                            </textarea>
+                            <!-- <textarea  v-model="address" id="democracy-voucher-address-box" >
+                            </textarea> -->
                             
                             <div 
                                 @click="copyAddress"

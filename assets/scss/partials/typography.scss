@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'betonextra_bold';
-    src: url('../../static/fonts/Beton-ExtBol.otf') format('opentype'),
-         url('../../static/fonts/beton-extbol-webfont.woff2') format('woff2'),
-         url('../../static/fonts/beton-extbol-webfont.woff') format('woff'),
-         url('../../static/fonts/beton-extbol-webfont.ttf') format('truetype');
+    src: url('/fonts/Beton-ExtBol.otf') format('opentype'),
+         url('/fonts/beton-extbol-webfont.woff2') format('woff2'),
+         url('/fonts/beton-extbol-webfont.woff') format('woff'),
+         url('/fonts/beton-extbol-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }

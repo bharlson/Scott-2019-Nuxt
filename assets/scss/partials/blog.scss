@@ -2,9 +2,24 @@
     &-btn{
         @extend .press-btn;
     }
-    &-post{
+    &-card{
+        @extend .press-card;
+        &-img{
+            display: none; 
+
+            @media(min-width:$md){
+                display: block;
+                max-width: 80%;
+                margin: 0 auto;
+            }
+        }
+        &-btn{
+            @extend .press-card-btn;
+            margin-top: 2rem;
+        }
         &-title{
             text-align: center;
+            margin-top: 1rem;
         }
         &-description{
             margin-top: 1rem;
@@ -36,14 +51,7 @@
         }
     }
     &-card{
-        @extend .press-card;
-        &-img{
-            @extend .press-card-img;
-        }
-        &-btn{
-            @extend .press-card-btn;
-            margin-top: 2rem;
-        }
+
 
     }
 }

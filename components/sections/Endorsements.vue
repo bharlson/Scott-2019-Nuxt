@@ -1,39 +1,51 @@
 <template>
     <div class="row">
-        <div class="col-xl-8 offset-xl-4">
-            <article v-for="i in endorsementItems" :key="i" class="endorsement-item">
-                <q>
-                    {{i.quote}}
-                </q>
-                <h2>{{i.name}}</h2>
-                <h3>{{i.credit}}</h3>
-            </article>
+        <div class="card-columns card-columns-endorsements">
+            <endorsement-card 
+                :dataSrc="i" 
+                v-for="i in endorsementItems.slice(0,limit)" 
+                :key="i">
+            </endorsement-card>
         </div>
     </div>
 </template>
 <script>
+    import EndorsementCard from '@/components/Cards/EndorsementCard.vue'
     export default {
         layout: 'default',
+        components:{
+            EndorsementCard
+        },
+        props:{
+            limit:{
+                type:Number
+            }
+        },
         data(){
             return{
                 pageTitle:'Endorsements',
-                endorsementItems:{
-                    endorsementItem1:{
+                endorsementItems:[
+                    {
                         quote:'I’m thrilled to support Shaun because I believe in the thoughtful approach he brings to progressive policy. He’s honed a forward-looking vision that links the environment and equity.',
                         name:'BRADY PIñERO WALKINSHAW',
-                        credit:'FORMER WA STATE LEGISLATOR, 43rd LD'
+                        credit:'Former Washington State Legislator, 43Rrd LD'
                     },
-                    endorsementItem2:{
-                        quote:'Shaun is so good at socialism he stole all of our toothbrushes and will only give them back on the condition we endorse him.',
+                    {
+                        quote:'',
                         name:'SEATTLE DSA',
-                        credit:'SEATTLE CHAPTER OF THE DEMOCRATIC SOCIALISTS OF AMERICA'
+                        credit:'Seattle Chapter of the Democratic Socialists of America'
                     },
-                    endorsementItem3:{
-                        quote:'Socialism is when the government does stuff, and the more stuff it controls and does, the more socialister it is.',
+                    {
+                        quote:'',
                         name:'Julia Salazar',
-                        credit:'NY STATE SENATOR'
+                        credit:'New York State Senator'
                     },
-                }
+                    {
+                        quote:'',
+                        name:'Cary Moon',
+                        credit:'Urban Planner and Transit Activist'
+                    },
+                ]
             }
         }
     }

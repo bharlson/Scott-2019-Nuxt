@@ -9,8 +9,11 @@
                 </div>
             </div>
         </section>
-        <section-press>
-        </section-press>
+        <section id="press" class="page-content">
+            <div class="container">
+                <section-press></section-press>
+            </div>
+        </section>
     </main>
 </template>
 <script>
