@@ -38,7 +38,7 @@
                 </div>
                 <div class="col-lg-6">
                     <p class="text-demand">
-                        100% Clean Energy by 2025
+                        SEATTLE GREEN NEW DEAL
                     </p>
                     <p class="text-demand">
                         Municipal broadband internet

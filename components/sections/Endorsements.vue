@@ -26,6 +26,26 @@
                 pageTitle:'Endorsements',
                 endorsementItems:[
                     {
+                        quote:'',
+                        name:'The Sierra Club',
+                        credit:''
+                    },
+                    {
+                        quote:'',
+                        name:'DSA',
+                        credit:'Democratic Socialists of America (National Committee)'
+                    },
+                    {
+                        quote:'',
+                        name:'WAHSDA',
+                        credit:'Washington State High School Democrats'
+                    },
+                    {
+                        quote:'',
+                        name:'Laura Loe',
+                        credit:'Housing activist, former 43rd LD Precinct Committee Officer (PCO)'
+                    },
+                    {
                         quote:'I’m thrilled to support Shaun because I believe in the thoughtful approach he brings to progressive policy. He’s honed a forward-looking vision that links the environment and equity.',
                         name:'BRADY PIñERO WALKINSHAW',
                         credit:'Former Washington State Legislator, 43Rrd LD'
@@ -44,6 +64,11 @@
                         quote:'',
                         name:'Cary Moon',
                         credit:'Urban Planner and Transit Activist'
+                    },
+                    {
+                        quote:'',
+                        name:'Jim Street',
+                        credit:'Former Seattle City Council Member'
                     },
                 ]
             }
