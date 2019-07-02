@@ -27,6 +27,11 @@
                 endorsementItems:[
                     {
                         quote:'',
+                        name:'WHAAM',
+                        credit:'Washington Housing Alliance Action Fund'
+                    },
+                    {
+                        quote:'',
                         name:'Our Revolution',
                         credit:'King County '
                     },
@@ -38,6 +43,11 @@
                     {
                         quote:'',
                         name:'King County Democrats',
+                        credit:''
+                    },
+                    {
+                        quote:'',
+                        name:'Transit Riders Union',
                         credit:''
                     },
                     {
