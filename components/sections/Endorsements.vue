@@ -27,8 +27,28 @@
                 endorsementItems:[
                     {
                         quote:'',
-                        name:'The Sierra Club',
+                        name:'Our Revolution',
+                        credit:'King County '
+                    },
+                    {
+                        quote:'',
+                        name:'Our Revolution',
+                        credit:'Washington Berniecrats Coalition'
+                    },
+                    {
+                        quote:'',
+                        name:'King County Democrats',
                         credit:''
+                    },
+                    {
+                        quote:'',
+                        name:'Seattle Subway',
+                        credit:''
+                    },
+                    {
+                        quote:'',
+                        name:'The Sierra Club',
+                        credit:'Sierra Club: Seattle Group'
                     },
                     {
                         quote:'',

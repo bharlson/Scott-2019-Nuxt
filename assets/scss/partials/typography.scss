@@ -1,6 +1,8 @@
 @font-face {
     font-family: 'betonextra_bold';
-    src: url('/fonts/Beton-ExtBol.otf') format('opentype'),
+    src: 
+        // url('/fonts/Beton-ExtBol.otf') format('opentype'),
+         url('/fonts/beton-extbol-webfont.eot') format('embedded-opentype'),
          url('/fonts/beton-extbol-webfont.woff2') format('woff2'),
          url('/fonts/beton-extbol-webfont.woff') format('woff'),
          url('/fonts/beton-extbol-webfont.ttf') format('truetype');
@@ -135,7 +137,7 @@ figcaption,small{
         font-family: $serif;
         letter-spacing: normal;
         font-size:3rem;
-        margin-bottom: -5px;
+        // margin-bottom: -5px;
         color:$purple;
         line-height: auto;
         @media(min-width:$md){
@@ -143,7 +145,7 @@ figcaption,small{
         }
         @media(min-width:$xl){
             font-size: 6rem;
-            margin-bottom: -1.2rem;
+            // margin-bottom: -1.2rem;
         }
     }
 }
