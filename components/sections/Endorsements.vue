@@ -27,7 +27,7 @@
                 endorsementItems:[
                     {
                         quote:'',
-                        name:'WHAAM',
+                        name:'WHAAF',
                         credit:'Washington Housing Alliance Action Fund'
                     },
                     {
