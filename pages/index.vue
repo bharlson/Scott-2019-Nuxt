@@ -58,6 +58,7 @@
             </div>
         </div>
     </section>
+    <video-section></video-section>
     <section id="press">
         <div class="container">
             <div class="row">
@@ -128,12 +129,14 @@
 import Logo from '~/components/Logo.vue'
 import Endorsements from '~/components/sections/Endorsements.vue'
 import PressCards from '~/components/sections/Press.vue'
+import VideoSection from '~/components/sections/VideoSection.vue'
 
 export default {
   components: {
     Endorsements,
     Logo,
-    PressCards
+    PressCards,
+    VideoSection
   },
   layout: 'home_layout',
   data(){

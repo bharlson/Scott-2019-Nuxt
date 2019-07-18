@@ -127,9 +127,6 @@
         margin-left: 0;
     }
 }
-svg.paid-for-by{
-    fill:$red;
-}
 .img{
     &-logo{
         @extend .img-fluid;

@@ -25,7 +25,7 @@ module.exports = {
       { rel: 'icon', type: 'image/gif', href: 'https://scott2019.com/favicon.gif' },
       { rel: 'canonical', href: 'https://scott2019.com' },
       { rel: 'stylesheet', href:'https://fonts.googleapis.com/css?family=Montserrat:400,600' }
-    ]
+    ],
   },
 
   /*
@@ -56,6 +56,9 @@ module.exports = {
     ['storyblok-nuxt', {
       accessToken:'IkeDyDaOeLrgmqqzWCRYsAtt',
       cacheProvider:'memory'
+    }],
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-121780003-2'
     }]
   ],
 
