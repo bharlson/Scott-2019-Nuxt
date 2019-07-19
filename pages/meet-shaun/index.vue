@@ -13,16 +13,27 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 order-2 order-lg-1">
-                        <h2>A NEW VOICE FOR SEATTLE</h2>
-                        <p>We can have a vibrant city where workers aren’t priced out and students don’t have to choose between textbooks and food.</p>
-                        <p>We can have a safe city where our streets and workplaces are free from harassment.</p>
-                        <p>We can have a welcoming city, where there is enough housing for those already here, and for those on the way.</p>
-                        <p>As a labor organizer with the Campaign Workers Guild and a former Rep. Pramila Jayapal staffer, Shaun Scott understands what it takes to build holistic, welcoming cities.</p>
-                        <p>Shaun Scott is an advocacy journalist and historian who has worked as the editor of Real Change News. Once a member of UAW 4121--the University of Washington’s union for academic and student employees–he has spent over a decade studying how cities can make good on the promise of economic equity, race, gender, and disability* fairness, and climate justice.</p>
-                        <p>A vote for Shaun Scott is a vote for that vision.</p>
+                        <h2 class='mt-lg-4'>BACKGROUND</h2>
+                        <p>Shaun Scott is an advocacy journalist and historian who has worked as the editor of Real Change News. While an undergraduate at the University of Washington, he was a member of UAW 4121 and worked with the Seattle Civil Rights and Labor History project to delve into exclusionary practices in Seattle land use decisions. As a member of SEIU 775NW, he wrote about issues facing homecare aides for the union paper Insight Magazine.</p>
                     </div>
                     <div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0">
-                        <img src="@/assets/img/meet-shaun.jpg" alt="Meet Shaun" class="img-fluid">
+                        <img src="@/assets/img/MeetShaun3.jpg" alt="Meet Shaun" class="img-fluid">
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-lg-6"><img src="@/assets/img/MeetShaun2.jpg" alt="" class="img-fluid"></div>
+                    <div class="col-lg-6">
+                     <h2 class="mt-4">EXPERIENCE</h2>
+                        <p>As a field staffer for Pramila Jayapal and organizer with Campaign Workers Guild in 2018, Shaun led the first ever unionization of a congressional incumbent’s campaign staff. From 2016-2017, Shaun spearheaded the Seattle Office of Arts &amp; Cultural Affairs’ $5.6 million renovation of King Street Station.</p>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0">
+                        <img src="@/assets/img/MeetShaun.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-lg-6 order-2 order-lg-1">
+                        <h2 class="mt-lg-3">VISION</h2>
+                        <p>For over a decade, Shaun was a documentary filmmaker who received numerous city and county grants for his visionary documentaries about Seattle history and politics, including his 2009 documentary Seat of Empire: Seattle Since 1909. He is the author of the book Millennials and the Moments That Made Us: A Cultural History of the U.S. from 1982-Present. A 43rd LD Democrat and member of Seattle DSA, he lives in Roosevelt near the soon-to- be-built light rail station.</p>
                     </div>
                 </div>
                 <div class="row text-center mt-4">

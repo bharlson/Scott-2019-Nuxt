@@ -15,12 +15,7 @@
                     </h2>
                 </div>
                 <div class="col-lg-6">
-                    <p>I’m running to represent Seattle City Council District 4 because I have a vision for Seattle
-                        that is rooted in addressing and alleviating the conditions of our most vulnerable residents. As
-                        a former student at the University of Washington, a renter in District 4, and a labor organizer
-                        with the Campaign Workers Guild, I’m intimately familiar with how struggles for affordable
-                        housing and economic justice weigh on the residents of our district. Join me in making Seattle a
-                        fair city. Let’s create a future for us all.</p>
+                    <p>Seattle’s prosperity should benefit us all. Let’s build a fair city, where renters aren’t priced out by rising costs of living, and homeowners aren’t stressed out by rising property taxes. A caring city, where the homeless get connected to housing and services, and young people don’t have to choose between textbooks and food. An inclusive city, where there is public housing for those here, and for those on the way. A vote for Shaun Scott is a vote for this vision</p>
                 </div>
             </div>
             <!--/row-->
@@ -30,10 +25,10 @@
                         PUBLIC HOUSING
                     </p>
                     <p class="text-demand">
-                        Tax the Rich
+                        A FAIR TAX CODE
                     </p>
                     <p class="text-demand">
-                        Free Public transit
+                       A FREELANCER’S BILL OF RIGHTS
                     </p>
                 </div>
                 <div class="col-lg-6">
@@ -41,10 +36,10 @@
                         SEATTLE GREEN NEW DEAL
                     </p>
                     <p class="text-demand">
-                        Municipal broadband internet
+                        HOUSE THE HOMELESS 
                     </p>
                     <p class="text-demand">
-                        Safe consumption sites
+                       MUNICIPAL BROADBAND INTERNET
                     </p>
                 </div>
             </div>

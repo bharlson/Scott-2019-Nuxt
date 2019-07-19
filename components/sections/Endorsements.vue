@@ -27,6 +27,16 @@
                 endorsementItems:[
                     {
                         quote:'',
+                        name:'THE STRANGER',
+                        credit:'The Stranger Election Control Board'
+                    },
+                    {
+                        quote:'',
+                        name:'UAW 1981',
+                        credit:' The National Writers Union'
+                    },
+                    {
+                        quote:'',
                         name:'WHAAF',
                         credit:'Washington Housing Alliance Action Fund'
                     },
@@ -78,7 +88,7 @@
                     {
                         quote:'I’m thrilled to support Shaun because I believe in the thoughtful approach he brings to progressive policy. He’s honed a forward-looking vision that links the environment and equity.',
                         name:'BRADY PIñERO WALKINSHAW',
-                        credit:'Former Washington State Legislator, 43Rrd LD'
+                        credit:'Former Washington State Legislator, 43rd LD'
                     },
                     {
                         quote:'',

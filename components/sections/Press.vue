@@ -23,6 +23,24 @@ export default {
         return{
             pressItems:[
                 {
+                    srcName:'The Daily UW',
+                    imgSrc:require('@/assets/img/UWDailyLogo.png'),
+                    caption:'Profile',
+                    captionOffset:'0',
+                    blurb:'"I’m using my platform as a candidate, and hopefully as a city council member, to shine a light on what it is we can do to make Seattle a racially inclusive and class inclusive city."',
+                    link:'http://www.dailyuw.com/news/article_49bbee12-a370-11e9-8a35-bb0a2e193a72.html',
+                    btnText:'FULL ARTICLE'
+                },
+                {
+                    srcName:'Associated Press',
+                    imgSrc:require('@/assets/img/APLogo.png'),
+                    caption:'Article',
+                    captionOffset:'0',
+                    blurb:'"I’m a Black working-class Millennial candidate with a net worth of approximately $10,000,” Scott wrote separately on Twitter. “If it weren’t for the democracy voucher program, running for office would be a pipe dream."',
+                    link:'https://www.apnews.com/30a65697ca2b4491ba98b9ee0b6131b3',
+                    btnText:'FULL ARTICLE'
+                },
+                {
                     srcName:'The Stranger',
                     imgSrc:require('@/assets/img/stranger.png'),
                     caption:'Op-Ed',
@@ -64,7 +82,7 @@ export default {
                     caption:'Op-Ed',
                     captionOffset:'0',
                     blurb:'"My vision for my city cannot be compromised, because it was created in the cauldron of activism, of advocacy journalism, of anti-racist and anti-capitalist scholarship and organizing. Seattle’s greatest export has always been its ideas, and this campaign will be an example of what can happen when we make the political process work for those it has historically ignored."',
-                    link:'https://www.thestranger.com/slog/2018/11/23/36072893/shaun-scott-talks-housing-equity-and-money-in-politics',
+                    link:'https://www.thestranger.com/slog/2018/11/23/35978962/democratic-socialist-shaun-scott-is-running-for-seattle-city-council',
                     btnText:'FULL ARTICLE'
                 },
                 {

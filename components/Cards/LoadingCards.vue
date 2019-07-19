@@ -19,10 +19,16 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '@/assets/scss/partials/variables.scss';
 .loading-card{
     width:100%;
-    padding:2rem;
+    padding:2rem 1.5rem 1rem 1.5rem;
     height:400px;
+    @media(min-width:$md){
+        display: block;
+        max-width: 80%;
+        margin: 0 auto;
+    }
     &-img{
         height:200px;
         width:330px;

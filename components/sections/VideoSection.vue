@@ -1,7 +1,7 @@
 <template>
     <section if="videos">
         <div class="container">
-            <div class="row mb-4">
+            <div class="row mb-lg-4">
                 <div class="col">
                     <h1>VISION FOR THE CITY</h1>
                 </div>
@@ -16,7 +16,7 @@
                     allowTransparency="true" 
                     allowFullScreen="true">
                     </iframe>
-                    <h4 class="text-center mt-4">{{i.videoCaption}}</h4>
+                    <h4 class="text-center mt-3 fb-video-caption">{{i.videoCaption}}</h4>
                 </div>
             </div>
         </div>
@@ -48,9 +48,16 @@ export default {
 </script>
 
 <style lang='scss'>
+@import '@/assets/scss/partials/variables.scss';
 .fb-video{
     display: block;
     margin:0 auto;
+    margin-top: 1.5rem;
+    @media(min-width:$lg){
+        margin-top: 0;
+    }
+    &-caption{
+        font-size:1.4rem;
+    }
 }
-
 </style>

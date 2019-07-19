@@ -18,6 +18,7 @@
                 </div>
                 <div class="row">
                     <div class="card-columns card-columns-blog" style="">
+                        <!-- <loading-cards></loading-cards> -->
                         <loading-cards v-if='showLoader'></loading-cards>
                         <blog-card
                             v-for="i in blogPosts"
