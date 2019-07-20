@@ -2,13 +2,18 @@
     <nav>
         <ul class="navbar">
             <li class="navbar-item">
-                <nuxt-link to="/meet-shaun" class="navbar-link" exact>Meet Shaun</nuxt-link>
+                <nuxt-link to="/meet-shaun" class="navbar-link" exact>Meet Shaun 
+                    <img src="@/assets/img/icons/wave.png" alt="" class="img-emoji img-emoji-wave">
+                </nuxt-link>
             </li>
             <li class="navbar-item">
                 <nuxt-link to="/platform" class="navbar-link" exact>Platform</nuxt-link>
             </li>
             <li class="navbar-item">
                 <nuxt-link to="/blog" class="navbar-link" exact>Blog</nuxt-link>
+            </li>
+            <li class="navbar-item">
+                <nuxt-link exact to="/videos" class="navbar-link">Videos</nuxt-link>
             </li>
             <li class="navbar-item">
                 <nuxt-link to="/press" class="navbar-link" exact>Press</nuxt-link>

@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row mb-lg-4">
                 <div class="col">
-                    <h1>VISION FOR THE CITY</h1>
+                    <h1>{{title}}</h1>
                 </div>
             </div>
             <div class="row">
@@ -42,6 +42,11 @@ export default {
                     videoCaption:'FREELANCER\'S BILL OF RIGHTS'
                 }
             ]
+        }
+    },
+    props:{
+        title:{
+            type:String
         }
     }
 }

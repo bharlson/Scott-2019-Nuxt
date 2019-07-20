@@ -23,6 +23,15 @@ export default {
         return{
             pressItems:[
                 {
+                    srcName:'Jacobin',
+                    imgSrc:require('@/assets/img/Jacobin_Logo.svg'),
+                    caption:'Interview',
+                    captionOffset:'0',
+                    blurb:'"We need to do better and — at the municipal and the national level — we need to put public housing back on the agenda to solve the housing crisis, and in general big social problems back on the agenda to solve other ills, as well. Those are the kinds of ideas my campaign is about."',
+                    link:'https://www.jacobinmag.com/2019/07/shaun-scott-interview-seattle-city-council-election?fbclid=IwAR3VvgBmmVn4cxi29-K5rzJ_z03LbX0G-gpYZB8-LmmHLUzD_pdeJI6Cf_M',
+                    btnText:'FULL ARTICLE'
+                },
+                {
                     srcName:'The Daily UW',
                     imgSrc:require('@/assets/img/UWDailyLogo.png'),
                     caption:'Profile',

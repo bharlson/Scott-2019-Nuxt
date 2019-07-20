@@ -53,7 +53,7 @@
             </div>
         </div>
     </section>
-    <video-section></video-section>
+    <video-section title="VISION FOR THE CITY"></video-section>
     <section id="press">
         <div class="container">
             <div class="row">
