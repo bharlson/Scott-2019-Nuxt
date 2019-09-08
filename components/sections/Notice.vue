@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-md-4 col-lg-2">
                 <p>Vote Scott</p>
-                <p>Aug. 6th</p>
+                <p>Nov. 5th</p>
             </div>
         </div>
     </div>

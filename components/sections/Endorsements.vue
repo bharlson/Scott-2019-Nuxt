@@ -32,6 +32,11 @@
                     },
                     {
                         quote:'',
+                        name:'WSPC',
+                        credit:'Washington State Progressive Caucus'
+                    },
+                    {
+                        quote:'',
                         name:'UAW 1981',
                         credit:' The National Writers Union'
                     },
@@ -39,6 +44,11 @@
                         quote:'',
                         name:'WHAAF',
                         credit:'Washington Housing Alliance Action Fund'
+                    },
+                    {
+                        quote:'',
+                        name:'Our Revolution',
+                        credit:'National Organization'
                     },
                     {
                         quote:'',

@@ -7,7 +7,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4" v-for="i in videos" :key="i">
+                <div class="col-lg-4" v-for="i in videos.slice(0,limit)" :key="i">
                     <iframe class="fb-video" :src="i.videoSrc + '&' + videoWidth" 
                     :width="videoWidth" :height="videoWidth"
                     style="border:none;overflow:hidden" 
@@ -30,6 +30,10 @@ export default {
             videoWidth:325,
             videos:[
                 {
+                    videoSrc:'https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FElectScott2019%2Fvideos%2F903782529964052%2F&show_text=0',
+                    videoCaption:'POLICE ACCOUNTABILITY'
+                },
+                {
                     videoSrc:'https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FElectScott2019%2Fvideos%2F660891347657405%2F&show_text=0',
                     videoCaption:'PUBLIC HOUSING'
                 },
@@ -47,6 +51,9 @@ export default {
     props:{
         title:{
             type:String
+        },
+        limit:{
+            type:Number
         }
     }
 }

@@ -1,8 +1,9 @@
 <template>
 <div id="app">
-    <nuxt-link to="/democracy-vouchers" tag="a" class="front">
+    <!-- <nuxt-link to="/democracy-vouchers" tag="a" class="front">
         <img src="@/assets/img/voucher-hand.png" class="democracy-voucher-alert">
-    </nuxt-link>
+    </nuxt-link> -->
+    <img src="@/assets/img/ballot-hand.png" class="alert-hand front">
     <section id="about">
         <!-- <p style="position:fixed; color:green">{{windowWidth}}</p> -->
         <div class="container">
@@ -53,7 +54,7 @@
             </div>
         </div>
     </section>
-    <video-section title="VISION FOR THE CITY"></video-section>
+    <video-section title="VISION FOR THE CITY" limit="3"></video-section>
     <section id="press">
         <div class="container">
             <div class="row">

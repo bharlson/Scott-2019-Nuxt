@@ -117,6 +117,528 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/.nuxt/dist/client/381c72e7110bcc907ea6.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/client/381c72e7110bcc907ea6-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/.nuxt/dist/client/5378751b8c0ace3dfe7b.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/client/5378751b8c0ace3dfe7b-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/.nuxt/dist/client/63797c61fc6140963ff7.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/client/63797c61fc6140963ff7-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/.nuxt/dist/client/7a509b29426da7c957da.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/client/7a509b29426da7c957da-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/.nuxt/dist/client/7c378f02635896b79fea.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/client/7c378f02635896b79fea-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/.nuxt/dist/client/a9c4c27d0300b9c7a1f7.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/client/a9c4c27d0300b9c7a1f7-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/.nuxt/dist/client/ad85db7f4be87ad5cc8f.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/client/ad85db7f4be87ad5cc8f-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/.nuxt/dist/client/bde0c79e2752196ddf60.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/client/bde0c79e2752196ddf60-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/.nuxt/dist/client/ddfe991ebe58da63a300.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/client/ddfe991ebe58da63a300-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/.nuxt/dist/client/e1361e718650433a2436.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/client/e1361e718650433a2436-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/.nuxt/dist/client/fc81d291a50fcb2b9a7a.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/client/fc81d291a50fcb2b9a7a-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/.nuxt/dist/client/fc826630040289b8ede8.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/client/fc826630040289b8ede8-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/.nuxt/dist/client/img/0200c21.png": {
+		"ft": 32768,
+		"iS": 3064,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/client/img/0200c21.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/.nuxt/dist/client/img/0a262d0.jpg": {
+		"ft": 16384,
+		"iS": 23268,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/client/img/0a262d0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/.nuxt/dist/client/img/0dafcd7.jpg": {
+		"ft": 16384,
+		"iS": 78320,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/client/img/0dafcd7.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/.nuxt/dist/client/img/0fa9cb6.png": {
+		"ft": 32768,
+		"iS": 327165,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/client/img/0fa9cb6.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/.nuxt/dist/client/img/13dfab4.jpg": {
+		"ft": 16384,
+		"iS": 103697,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/client/img/13dfab4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/.nuxt/dist/client/img/149feef.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/.nuxt/dist/client/img/149feef.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/.nuxt/dist/client/img/1d9278e.png": {
+		"ft": 32768,
+		"iS": 290313,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/client/img/1d9278e.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/.nuxt/dist/client/img/2d5649e.png": {
+		"ft": 32768,
+		"iS": 8796,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/client/img/2d5649e.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/.nuxt/dist/client/img/51b44c8.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/.nuxt/dist/client/img/51b44c8.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/.nuxt/dist/client/img/671c4cf.png": {
+		"ft": 32768,
+		"iS": 18740,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/client/img/671c4cf.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/.nuxt/dist/client/img/679fc61.png": {
+		"ft": 32768,
+		"iS": 2064,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/client/img/679fc61.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/.nuxt/dist/client/img/71cb273.png": {
+		"ft": 32768,
+		"iS": 15498,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/client/img/71cb273.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/.nuxt/dist/client/img/7ba3d00.png": {
+		"ft": 32768,
+		"iS": 4051,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/client/img/7ba3d00.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/.nuxt/dist/client/img/9cb7c28.png": {
+		"ft": 32768,
+		"iS": 1891,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/client/img/9cb7c28.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/.nuxt/dist/client/img/a40bfc8.jpg": {
+		"ft": 16384,
+		"iS": 388519,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/client/img/a40bfc8.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/.nuxt/dist/client/img/a8d4d14.png": {
+		"ft": 32768,
+		"iS": 2636,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/client/img/a8d4d14.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/.nuxt/dist/client/img/cd15596.jpg": {
+		"ft": 16384,
+		"iS": 81146,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/client/img/cd15596.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/.nuxt/dist/client/img/cdd817e.jpg": {
+		"ft": 16384,
+		"iS": 769392,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/client/img/cdd817e.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/.nuxt/dist/client/img/e2eb1e1.png": {
+		"ft": 32768,
+		"iS": 19596,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/client/img/e2eb1e1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/.nuxt/dist/client/img/eda0fc8.jpg": {
+		"ft": 16384,
+		"iS": 426744,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/client/img/eda0fc8.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/.nuxt/dist/client/img/f2fa07e.png": {
+		"ft": 32768,
+		"iS": 2264,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/client/img/f2fa07e.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/.nuxt/dist/client/LICENSES": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/client/LICENSES",
+		"oF": 0
+		},
+	"/.nuxt/dist/server/01087670750a115c13ef.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/server/01087670750a115c13ef-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/.nuxt/dist/server/01087670750a115c13ef.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/server/01087670750a115c13ef.js.map",
+		"oF": 0
+		},
+	"/.nuxt/dist/server/1cc82535efc3e740adc6.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/server/1cc82535efc3e740adc6-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/.nuxt/dist/server/1cc82535efc3e740adc6.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/server/1cc82535efc3e740adc6.js.map",
+		"oF": 0
+		},
+	"/.nuxt/dist/server/493d2673171ad45395a9.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/server/493d2673171ad45395a9-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/.nuxt/dist/server/493d2673171ad45395a9.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/server/493d2673171ad45395a9.js.map",
+		"oF": 0
+		},
+	"/.nuxt/dist/server/8cc2b7e18e99603e0e6c.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/server/8cc2b7e18e99603e0e6c-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/.nuxt/dist/server/8cc2b7e18e99603e0e6c.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/server/8cc2b7e18e99603e0e6c.js.map",
+		"oF": 0
+		},
+	"/.nuxt/dist/server/a0f378ab5720bb802161.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/server/a0f378ab5720bb802161-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/.nuxt/dist/server/a0f378ab5720bb802161.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/server/a0f378ab5720bb802161.js.map",
+		"oF": 0
+		},
+	"/.nuxt/dist/server/b282a17bbdc81082dc23.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/server/b282a17bbdc81082dc23-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/.nuxt/dist/server/b282a17bbdc81082dc23.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/server/b282a17bbdc81082dc23.js.map",
+		"oF": 0
+		},
+	"/.nuxt/dist/server/client.manifest.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/.nuxt/dist/server/client.manifest-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/.nuxt/dist/server/d0cd370752a22752a4ac.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/server/d0cd370752a22752a4ac-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/.nuxt/dist/server/d0cd370752a22752a4ac.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/server/d0cd370752a22752a4ac.js.map",
+		"oF": 0
+		},
+	"/.nuxt/dist/server/index.spa.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/server/index.spa.html",
+		"oF": 0
+		},
+	"/.nuxt/dist/server/index.ssr.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/server/index.ssr.html",
+		"oF": 0
+		},
+	"/.nuxt/dist/server/server.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/server/server-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/.nuxt/dist/server/server.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/.nuxt/dist/server/server.js.map",
+		"oF": 0
+		},
+	"/.nuxt/dist/server/server.manifest.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/.nuxt/dist/server/server.manifest-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"/.nuxt/empty.js": {
 		"ft": 64,
 		"ma": 0,
@@ -1133,122 +1655,122 @@
 		"oAP": "/dist/200.html",
 		"oF": 0
 		},
-	"/dist/_nuxt/02874a32fd1ddac53d5d.js": {
+	"/dist/_nuxt/381c72e7110bcc907ea6.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dist/_nuxt/02874a32fd1ddac53d5d-min.js",
+		"oAP": "/dist/_nuxt/381c72e7110bcc907ea6-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dist/_nuxt/14f60dd02b36fc9145ec.js": {
+	"/dist/_nuxt/5378751b8c0ace3dfe7b.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dist/_nuxt/14f60dd02b36fc9145ec-min.js",
+		"oAP": "/dist/_nuxt/5378751b8c0ace3dfe7b-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dist/_nuxt/1827ce017ecad4e5f80b.js": {
+	"/dist/_nuxt/63797c61fc6140963ff7.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dist/_nuxt/1827ce017ecad4e5f80b-min.js",
+		"oAP": "/dist/_nuxt/63797c61fc6140963ff7-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dist/_nuxt/22840c323777253737fe.js": {
+	"/dist/_nuxt/7a509b29426da7c957da.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dist/_nuxt/22840c323777253737fe-min.js",
+		"oAP": "/dist/_nuxt/7a509b29426da7c957da-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dist/_nuxt/537d5fbe271728a963e0.js": {
+	"/dist/_nuxt/7c378f02635896b79fea.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dist/_nuxt/537d5fbe271728a963e0-min.js",
+		"oAP": "/dist/_nuxt/7c378f02635896b79fea-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dist/_nuxt/62d1a376b472a9f5f120.js": {
+	"/dist/_nuxt/a9c4c27d0300b9c7a1f7.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dist/_nuxt/62d1a376b472a9f5f120-min.js",
+		"oAP": "/dist/_nuxt/a9c4c27d0300b9c7a1f7-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dist/_nuxt/747157b1e58503ef9c46.js": {
+	"/dist/_nuxt/ad85db7f4be87ad5cc8f.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dist/_nuxt/747157b1e58503ef9c46-min.js",
+		"oAP": "/dist/_nuxt/ad85db7f4be87ad5cc8f-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dist/_nuxt/825021bebd63a019224c.js": {
+	"/dist/_nuxt/bde0c79e2752196ddf60.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dist/_nuxt/825021bebd63a019224c-min.js",
+		"oAP": "/dist/_nuxt/bde0c79e2752196ddf60-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dist/_nuxt/b4acfcca3d543be318a2.js": {
+	"/dist/_nuxt/ddfe991ebe58da63a300.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dist/_nuxt/b4acfcca3d543be318a2-min.js",
+		"oAP": "/dist/_nuxt/ddfe991ebe58da63a300-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dist/_nuxt/c0171dcd70752732d9b1.js": {
+	"/dist/_nuxt/e1361e718650433a2436.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dist/_nuxt/c0171dcd70752732d9b1-min.js",
+		"oAP": "/dist/_nuxt/e1361e718650433a2436-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dist/_nuxt/c877e4ba3583cd4c629d.js": {
+	"/dist/_nuxt/fc81d291a50fcb2b9a7a.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dist/_nuxt/c877e4ba3583cd4c629d-min.js",
+		"oAP": "/dist/_nuxt/fc81d291a50fcb2b9a7a-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dist/_nuxt/ca4c2e0d8e16a421fc22.js": {
+	"/dist/_nuxt/fc826630040289b8ede8.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dist/_nuxt/ca4c2e0d8e16a421fc22-min.js",
+		"oAP": "/dist/_nuxt/fc826630040289b8ede8-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -1514,13 +2036,6 @@
 		"oAP": "/dist/democracy-vouchers/index.html",
 		"oF": 0
 		},
-	"/dist/endorsements/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/dist/endorsements/index.html",
-		"oF": 0
-		},
 	"/dist/favicon.gif": {
 		"ft": 4194304,
 		"iS": 847,
@@ -1654,6 +2169,13 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"/dist/test/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/dist/test/index.html",
+		"oF": 0
 		},
 	"/layouts/default.vue": {
 		"cB": 0,
