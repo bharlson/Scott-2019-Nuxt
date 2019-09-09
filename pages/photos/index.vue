@@ -10,37 +10,42 @@
             </div>
         </section>
         <section class="page-content">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 offset-md-4">
-                        <a class="btn btn-purple btn-layered btn-block" href="https://www.facebook.com/pg/ElectScott2019/photos/" target="_blank">
-                            <img src="@/assets/img/icons/camera-emoji.png" alt="video emoji" class="img-emoji">
-                            More Photos
-                        </a>
-                    </div>
-                </div>
-            </div>
+            <photo-gallery></photo-gallery>
         </section>
     </main>
 </template>
 <script>
+import config from '@/config'
+import PhotoGallery from '@/components/sections/PhotoGallery'
+
 export default {
     layout: 'default',
     data(){
         return{
-            pageTitle:'Photos'
+            pageTitle:'Photos',
         }
     },
     components:{
+        PhotoGallery
     }
 }
 </script>
 <style lang="scss" scoped>
     @import '@/assets/scss/partials/variables.scss';
+    .photo-gallery{
+        &-card{
+            background-color: transparent;
+            text-align: center;
+            &-img{
+                margin: 0 auto;
+            }
+        }
+    }
+
+    .vgs{
+        padding-top: 2rem;
+    }
+
 </style>
 
 
