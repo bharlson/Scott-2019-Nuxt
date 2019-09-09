@@ -13,10 +13,13 @@
                 <nuxt-link to="/blog" class="navbar-link" exact>Blog</nuxt-link>
             </li>
             <li class="navbar-item">
-                <nuxt-link exact to="/videos" class="navbar-link">Videos</nuxt-link>
+                <nuxt-link to="/press" class="navbar-link" exact>Press</nuxt-link>
             </li>
             <li class="navbar-item">
-                <nuxt-link to="/press" class="navbar-link" exact>Press</nuxt-link>
+                <nuxt-link exact to="/photos" class="navbar-link">Photos</nuxt-link>
+            </li>
+            <li class="navbar-item">
+                <nuxt-link exact to="/videos" class="navbar-link">Videos</nuxt-link>
             </li>
             <li class="navbar-item">
                 <a href="https://scott2019.us19.list-manage.com/subscribe/post?u=e2e1dd70c08d354d226f2ee1e&id=f854738314" 
