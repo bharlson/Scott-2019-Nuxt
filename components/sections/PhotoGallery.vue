@@ -1,6 +1,7 @@
 <template>
     <div class="container">
         <div class="row">
+            <loading-cards v-if="showLoader"></loading-cards>
             <div class="card-columns">
                 <div class="card photo-gallery-card" v-for="(photo, i) in photos.slice(0,limit)" :key="photo">
                     <img class="img img-fluid photo-gallery-card-img" 
@@ -19,13 +20,15 @@
                 </a>
             </div>
         </div>
-    </div>    
+    </div> 
 </template>
 
 <script>
 import config from '@/config'
 import axios from 'axios'
 import VueGallerySlideshow from 'vue-gallery-slideshow'
+import LoadingCards from '@/components/Cards/LoadingCards.vue'
+
 
 export default {
     data(){
@@ -39,6 +42,16 @@ export default {
     props:{
         limit:{
             type:Number
+        }
+    },
+    computed:{
+        showLoader(){
+            if(this.photos.length > 0){
+                return false
+            }
+            else{
+                return true
+            }
         }
     },
     methods:{
@@ -58,7 +71,8 @@ export default {
             .catch(error=>console.log(error))
     },
     components:{
-        'vue-gallery-slideshow' : VueGallerySlideshow
+        'vue-gallery-slideshow' : VueGallerySlideshow,
+        LoadingCards
     }
 }
 </script>

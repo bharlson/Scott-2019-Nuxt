@@ -1,7 +1,6 @@
 <template>
 <div>
     <div class="card loading-card loading-card-1" style="height:450px">
-        <div class="loading-card-img" ></div>
     </div>
     <div class="card loading-card loading-card-2" style="height:500px">
     </div>
@@ -22,12 +21,13 @@ export default {
 @import '@/assets/scss/partials/variables.scss';
 .loading-card{
     width:100%;
-    padding:2rem 1.5rem 1rem 1.5rem;
+    // padding:2rem 1.5rem 1rem 1.5rem;
     height:400px;
+    // margin:0;
     @media(min-width:$md){
         display: block;
-        max-width: 80%;
-        margin: 0 auto;
+        // max-width: 80%;
+        // margin: 0 auto;
     }
     &-img{
         height:200px;
