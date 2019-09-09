@@ -17,12 +17,22 @@
 <script>
 import config from '@/config'
 import PhotoGallery from '@/components/sections/PhotoGallery'
-
+import LoadingCards from '@/components/Cards/LoadingCards.vue'
 export default {
     layout: 'default',
     data(){
         return{
             pageTitle:'Photos',
+        }
+    },
+    computed:{
+        showLoader(){
+            if(this.photos.length > 0){
+                return false
+            }
+            else{
+                return true
+            }
         }
     },
     components:{

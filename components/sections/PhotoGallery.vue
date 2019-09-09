@@ -70,12 +70,17 @@ export default {
             text-align: center;
             &-img{
                 margin: 0 auto;
+                cursor:pointer;
             }
         }
     }
 
     .vgs{
         padding-top: 2rem;
+        background-color:$purple;
+        &__container{
+            background: transparent;
+        }
     }
 
 </style>

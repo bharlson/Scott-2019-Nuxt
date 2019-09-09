@@ -14,11 +14,11 @@
                 Donate
             </a>
         </li>
-        <!-- <li class="navbar-item">
-            <nuxt-link exact to="/democracy-vouchers" class="navbar-link">
-                Democracy Vouchers
+        <li class="navbar-item">
+            <nuxt-link exact to="/register-to-vote" class="navbar-link">
+                Register to Vote
             </nuxt-link>
-        </li> -->
+        </li>
     </ul>
     <ul class="navbar">
         <li class="navbar-item">

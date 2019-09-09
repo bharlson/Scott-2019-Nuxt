@@ -14,6 +14,7 @@ a{
     font-weight: 600;
     &:hover{
         text-decoration: underline;
+        cursor:pointer;
     }
 }
 //headings
@@ -160,12 +161,24 @@ figcaption,small{
         line-height: 2.5rem;
     }
 }
+.text-faq{
+    font-family: $body-font;
+    color:$purple;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.25rem;
+    @media(min-width:$md){
+        font-size:1.5rem;
+        line-height: 2.5rem;
+    }
+}
+
 
 .text-red{
     color:$red;
 }
 .text-purple{
-    color:$purple;
+    color:$purple!important;
 }
 .text-white{
     color:$white;
