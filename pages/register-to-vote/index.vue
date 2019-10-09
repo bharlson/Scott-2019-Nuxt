@@ -42,7 +42,7 @@
                 </div>
                 <div class="row">
                     <div class="col">
-                        <p>Major corporations and big polluters count on us to sit out of local elections. We can’t let them win.</p>
+                        <h2 class="text-purple">Major corporations and big polluters count on us to sit out of local elections.<br> We can’t let them win.</h2>
                     </div>
                 </div>
                 <section id="what-to-do">

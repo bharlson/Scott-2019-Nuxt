@@ -32,6 +32,21 @@
                     },
                     {
                         quote:'',
+                        name:'Mike O\'Brien',
+                        credit:'- Washington Bikes'
+                    },
+                    {
+                        quote:'',
+                        name:'Mike O\'Brien',
+                        credit:'Seattle City Councilmember, District 6'
+                    },
+                    {
+                        quote:'',
+                        name:'Jessyn Farrell',
+                        credit:'former 46th District State Legislator'
+                    },
+                    {
+                        quote:'',
                         name:'WSPC',
                         credit:'Washington State Progressive Caucus'
                     },
