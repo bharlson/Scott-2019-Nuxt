@@ -1,9 +1,9 @@
 <template>
     <div class="row">
         <div class="card-columns card-columns-endorsements">
-            <endorsement-card 
-                :dataSrc="i" 
-                v-for="i in endorsementItems.slice(0,limit)" 
+            <endorsement-card
+                :dataSrc="i"
+                v-for="i in endorsementItems.slice(0,limit)"
                 :key="i">
             </endorsement-card>
         </div>
@@ -33,7 +33,7 @@
                     {
                         quote:'',
                         name:'Mike O\'Brien',
-                        credit:'- Washington Bikes'
+                        credit:'Washington Bikes'
                     },
                     {
                         quote:'',
