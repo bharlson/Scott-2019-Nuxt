@@ -32,13 +32,33 @@
                     },
                     {
                         quote:'',
-                        name:'Mike O\'Brien',
-                        credit:'Washington Bikes'
+                        name:'Washington Bikes',
+                        credit:''
+                    },
+                    {
+                        quote:'',
+                        name:'Kshama Sawant',
+                        credit:'Seattle City Councilmember, District 3'
+                    },
+                    {
+                        quote:'',
+                        name:'Teresa Mosqueda',
+                        credit:'Seattle City Councilmember'
                     },
                     {
                         quote:'',
                         name:'Mike O\'Brien',
                         credit:'Seattle City Councilmember, District 6'
+                    },
+                    {
+                        quote:'',
+                        name:'Nicole Macri',
+                        credit:'Washington State Representative (43rd LD)'
+                    },
+                    {
+                        quote:'',
+                        name:'Rebecca Saldaña',
+                        credit:'Washington State Senator (37th LD)'
                     },
                     {
                         quote:'',

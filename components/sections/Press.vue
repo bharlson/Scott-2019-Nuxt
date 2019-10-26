@@ -23,6 +23,15 @@ export default {
         return{
             pressItems:[
                 {
+                    srcName:'The Stranger',
+                    imgSrc:require('@/assets/img/stranger.png'),
+                    caption:'Op-Ed',
+                    captionOffset:'0',
+                    blurb:'"Rather than continue to embrace the most ineffective solutions from the most regressive blocs in the city, Seattle must put true distance between itself and Trump by addressing the root causes of economic insecurity in the city."',
+                    link:'https://www.thestranger.com/slog/2019/10/17/41708988/to-take-on-trump-liberal-seattle-must-first-take-a-look-at-itself',
+                    btnText:'FULL ARTICLE'
+                },
+                {
                     srcName:'Jacobin',
                     imgSrc:require('@/assets/img/Jacobin_Logo.svg'),
                     caption:'Interview',
