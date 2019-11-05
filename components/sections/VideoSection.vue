@@ -30,6 +30,10 @@ export default {
             videoWidth:325,
             videos:[
                 {
+                    videoSrc:'https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FElectScott2019%2Fvideos%2F461918164446343%2F&show_text=0',
+                    videoCaption:'A special message from CM. Lorena González'
+                },
+                {
                     videoSrc:'https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FElectScott2019%2Fvideos%2F535892043817566%2F&show_text=0',
                     videoCaption:'LABOR RIGHTS'
                 },
@@ -74,6 +78,7 @@ export default {
     }
     &-caption{
         font-size:1.4rem;
+        text-transform: uppercase;
     }
 }
 </style>
