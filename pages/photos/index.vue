@@ -37,6 +37,9 @@ export default {
     },
     components:{
         PhotoGallery
+    },
+    mounted(){
+        console.log(process.env.FLICKR)
     }
 }
 </script>

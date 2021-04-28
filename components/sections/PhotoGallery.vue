@@ -60,7 +60,7 @@ export default {
       }
     },
     beforeMount(){
-        axios.get('https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=d6598b7978d9906252bcf688fb5a250d&user_id=184320423%40N05&format=json&nojsoncallback=1')
+        axios.get(process.env.FLICKR)
             .then(res=>{
                 const data = res.data.photos.photo
                 // const posts = data.filter(item => item.categories.length > 0)

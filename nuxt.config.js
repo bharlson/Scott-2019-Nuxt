@@ -53,13 +53,14 @@ module.exports = {
   modules: [
     // Doc: https://bootstrap-vue.js.org/docs/
     'bootstrap-vue/nuxt',
-    ['storyblok-nuxt', {
-      accessToken:'IkeDyDaOeLrgmqqzWCRYsAtt',
-      cacheProvider:'memory'
-    }],
+
     ['@nuxtjs/google-analytics', {
-      id: 'UA-121780003-2'
-    }]
+      id: process.env.GOOGLE_ANALYTICS
+    }],
+    '@nuxtjs/separate-env'
+  ],
+  buildModules: [
+    '@nuxtjs/dotenv'
   ],
 
   router: {

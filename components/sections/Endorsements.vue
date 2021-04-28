@@ -47,6 +47,11 @@
                     },
                     {
                         quote:'',
+                        name:'Lorena Gonzalez',
+                        credit:'Seattle City Councilmember'
+                    },
+                    {
+                        quote:'',
                         name:'Mike O\'Brien',
                         credit:'Seattle City Councilmember, District 6'
                     },

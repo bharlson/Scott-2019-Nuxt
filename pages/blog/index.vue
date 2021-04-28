@@ -69,7 +69,8 @@ export default {
         }
     },
     created(){
-        axios.get('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@ElectScott2019')
+        axios.get(process.env.MEDIUM)
+        // axios.get('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@ElectScott2019')
             .then(res=>{
                 const data = res.data.items
                 const posts = data.filter(item => item.categories.length > 0)
